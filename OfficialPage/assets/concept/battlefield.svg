@@ -5,7 +5,7 @@
 <rect x="38" y="38" width="1124" height="684" fill="none" stroke="#a67c3d" stroke-width=".6" opacity=".4"/>
 <text x="56" y="70" font-family="Georgia, Times New Roman, serif" font-size="10" fill="#a67c3d" text-anchor="start" letter-spacing="3" opacity="0.75">PLATE V</text>
 <text x="56" y="108" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="26" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">战场</text>
-<text x="56" y="136" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">THE FIVE ZONES</text>
+<text x="56" y="136" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">A MINIMAL MAP</text>
 <rect x="70" y="210" width="196" height="330" fill="#a67c3d" opacity=".04"/>
 <rect x="70" y="210" width="196" height="330" fill="none" stroke="#171c26" stroke-width=".9" opacity=".55"/>
 <text x="168" y="240" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#a67c3d" text-anchor="middle" letter-spacing="2" opacity="0.75">END</text>
@@ -53,5 +53,5 @@
 <path d="M270 620 C360 600 420 620 510 600" fill="none" stroke="#a67c3d" stroke-width="1" marker-end="url(#arrow)"/>
 <path d="M930 620 C840 600 780 620 690 600" fill="none" stroke="#a67c3d" stroke-width="1"/>
 <defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#a67c3d"/></marker></defs>
-<text x="70" y="700" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="14" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.7" font-weight="400">单位在战区之间移动；攻击只能指向相邻战区，射手与法师除外。</text>
+<text x="70" y="700" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="14" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.7" font-weight="400">最小结构：战区数量、排布与容量由地图决定；单位从末端加入，再向外移动。</text>
 </svg>

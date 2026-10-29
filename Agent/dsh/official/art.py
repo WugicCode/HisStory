@@ -554,8 +554,8 @@ def concept_war():
 
 def concept_battlefield():
     w, h = 1200, 760
-    s, fg, a = _plate_base(w, h, False, "战场", "THE FIVE ZONES", "PLATE V")
-    # five zones
+    s, fg, a = _plate_base(w, h, False, "战场", "A MINIMAL MAP", "PLATE V")
+    # minimal structure: five boxes, not a fixed map
     zones = [("末端 · 信仰", "END"), ("战区 II", "II"), ("战区 III", "III"), ("战区 IV", "IV"), ("末端 · 信仰", "END")]
     for i, (label, num) in enumerate(zones):
         x = 70 + i * 216
@@ -578,7 +578,7 @@ def concept_battlefield():
     s.append(f'<path d="M270 620 C360 600 420 620 510 600" fill="none" stroke="{a}" stroke-width="1" marker-end="url(#arrow)"/>')
     s.append(f'<path d="M930 620 C840 600 780 620 690 600" fill="none" stroke="{a}" stroke-width="1"/>')
     s.append(f'<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="{a}"/></marker></defs>')
-    s.append(_text(70, 700, "单位在战区之间移动；攻击只能指向相邻战区，射手与法师除外。", 14, fg, opacity=.7))
+    s.append(_text(70, 700, "最小结构：战区数量、排布与容量由地图决定；单位从末端加入，再向外移动。", 14, fg, opacity=.7))
     s.append('</svg>')
     return "\n".join(s)
 
@@ -668,7 +668,7 @@ def cover_svg(w=1600, h=900):
 
 
 def game_cover_svg(w=1600, h=900):
-    """游戏编封面：五个战区、几张牌、一轮月。无文字，文字由网页叠上去。"""
+    """游戏编封面：随机地图的最小结构、几张牌、一轮月。无文字，文字由网页叠上去。"""
     rng = random.Random(1939)
     out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}">',
            f'<rect width="{w}" height="{h}" fill="{INK}"/>',

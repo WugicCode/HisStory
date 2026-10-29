@@ -122,6 +122,7 @@ def roman(n: int) -> str:
 def page(title: str, rel: str, body: str, *, desc: str = "", active: str = "", cls: str = "") -> str:
     full = f"{title} · {TITLE}" if title and title != TITLE else f"{TITLE} · {LATIN}"
     desc = desc or PROJECT["subtitle"]
+    body = "\n".join(line.rstrip() for line in body.splitlines())
     return f"""<!doctype html>
 <html lang="zh-CN">
 <head>
@@ -329,7 +330,7 @@ def build_home() -> str:
         <div class="t-num">II / GAME</div>
         <h3>游戏</h3>
         <div class="t-latin">TEXT ADVENTURE × CARD GAME</div>
-        <p>文字冒险承载路，卡牌承载战斗。文字冒险部分由 GodotADV 实现；卡牌部分以 1939 工作室的《Kards》为灵感，做成五战区、双信仰、40 张卡组的样子。</p>
+        <p>文字冒险承载路，卡牌承载战斗。文字冒险部分由 GodotADV 实现；卡牌部分以 1939 工作室的《Kards》为灵感，做成双信仰、40 张卡组的样子；战区的数量、排布与容量由随机地图决定。</p>
         <div class="t-status">设计归档 · 规则与 86 张卡</div>
         <a class="t-go" href="game/index.html">进入游戏编</a>
       </article>
@@ -380,7 +381,7 @@ def build_home() -> str:
       <article>
         <div class="latin">CARD GAME</div>
         <h3>卡牌对战</h3>
-        <p>五战区、双信仰、40 张卡组。三个阵营各自有一套节奏；英雄与天赋在构筑时合成一张牌，死亡不是退场，是返场前的空白。</p>
+        <p>随机地图、双信仰、40 张卡组。战区数量、排布与容量都由地图决定；三个阵营各自有一套节奏；英雄与天赋在构筑时合成一张牌，死亡不是退场，是返场前的空白。</p>
       </article>
     </div>
   </div>
@@ -488,7 +489,7 @@ def build_world() -> str:
 </section>
 <div class="wrap">
   {chapter("01", "魔力", "THE THREE LAWS", f'''
-    <p>在这个世界里，魔力不是凭空出现的燃料。它是原质在运动中的表现；把魔力与原质统一量纲，得到「魔能」；魔能可以与其他能量互相转化，总和不变。</p>
+    <p>在这个世界里，魔力不是凭空出现的燃料。它是原质在运动中的表现；把魔力与原质统一量纲，得到「魔能」；魔能可以与其他能量互相转换，总和不变。</p>
     {figure("assets/concept/mana.svg", "三圆相切的概念图", "图版 I · 魔力、原质与魔能", "三圆相切：不是三种东西，是同一种东西的三种写法。")}
     <div class="law-grid">{laws}</div>
     <p class="rule-note"><b>为什么要先讲这个？</b> 因为后面的「魔种魔法为什么是禁忌」「贤者之石为什么珍贵」「斯卡琳为什么必须死」，都在这三条定律里。</p>
@@ -625,12 +626,12 @@ def build_cast() -> str:
 def build_game_index() -> str:
     stats = f"""<div class="stat-row" data-reveal>
   <div><b>40</b><span>张 · 一副卡组</span></div>
-  <div><b>05</b><span>个战区 · 双信仰</span></div>
+  <div><b>MAP</b><span>战区 · 由地图决定</span></div>
   <div><b>03</b><span>个阵营 · 选一</span></div>
   <div><b>86</b><span>张 · 已归档卡牌</span></div>
 </div>"""
     body = f"""<section class="cover cover--game">
-  <img class="cover-art" src="assets/concept/game-cover.svg" alt="五战区概念图">
+  <img class="cover-art" src="assets/concept/game-cover.svg" alt="随机地图概念图">
   <div class="wrap">
     <div class="cover-top"><span>游戏编 / THE GAME</span><span>DESIGN ARCHIVE · {esc(PROJECT["date"])}</span></div>
     <div class="cover-main">
@@ -666,7 +667,7 @@ def build_game_index() -> str:
       <article>
         <div class="latin">CARD GAME / KARDS-INSPIRED</div>
         <h3>卡牌对战</h3>
-        <p>五战区、双信仰、40 张卡组。战士、法师、射手三类单位，三种距离；防御是可再生的生命，也是可以打空的资源。</p>
+        <p>随机地图、双信仰、40 张卡组。战区数量、排布与容量由地图决定；战士、法师、射手三类单位，三种距离。防御是可再生的生命，也是可以打空的资源。</p>
       </article>
     </div>
   </section>
@@ -710,16 +711,16 @@ def build_game_index() -> str:
     <p class="small muted" style="margin-top:18px">数据口径：86 张卡（魔法 66 / 天赋 13 / 单位 5 / 觉醒 2）；阵营 新的勇者 59 / 同盟军 18 / 通用 8 / 魔王军 1。卡文以 Game/CardsDesign.md 为准。</p>
   </section>
 </div>"""
-    return page("游戏编", "../", rebase_root(body), active="game", desc="长歌游戏编：文字冒险 + 卡牌对战，五战区、双信仰、40 张卡组、86 张已归档卡牌。")
+    return page("游戏编", "../", rebase_root(body), active="game", desc="长歌游戏编：文字冒险 + 卡牌对战，随机地图、双信仰、40 张卡组、86 张已归档卡牌。")
 
 
 # ---------------------------------------------------------------- play
 def build_play() -> str:
     zones = [
         ("00", "己方末端", "信仰 · 1000", "is-edge is-faith", "faith-left", "信仰 1000"),
-        ("01", "己方战区", "前阵", "", "novian", "诺维安 150/300"),
-        ("02", "中央战区", "争夺", "", "", ""),
-        ("03", "敌方战区", "前阵", "", "enemy", "敌单位 100/200"),
+        ("01", "己方战区", "未占领", "", "", ""),
+        ("02", "中央战区", "未占领 · 由地图决定", "", "", ""),
+        ("03", "敌方战区", "未占领", "", "", ""),
         ("04", "敌方末端", "信仰 · 1000", "is-edge is-faith", "faith-right", "信仰 1000"),
     ]
     zone_html = []
@@ -735,12 +736,12 @@ def build_play() -> str:
 </div>""")
 
     steps = [
-        {"kicker": "STEP 01 / 06", "title": "开局", "text": "先手抽 4，后手抽 5，然后调度：可以换掉等量的牌。双方各有一座 1000 防御的信仰，放在自己的末端战区。", "zones": [0, 4], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 1, "guard": 1, "enemy": 3, "faith-left": 0, "faith-right": 4}},
-        {"kicker": "STEP 02 / 06", "title": "回合开始", "text": "除先手第一回合外，回合开始抽 1。魔力上限 +1，并回满当前魔力。上限到 12 后停止自然增长；硬上限是 24。", "zones": [0, 1, 3, 4], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 1, "guard": 1, "enemy": 3, "faith-left": 0, "faith-right": 4}},
-        {"kicker": "STEP 03 / 06", "title": "出牌", "text": "单位牌进入一个战区。手牌上限 9；溢出的牌放回卡组底部。0 费不等于机动；机动是词条，写在卡上。", "zones": [1], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 1, "guard": 1, "enemy": 3, "faith-left": 0, "faith-right": 4}},
-        {"kicker": "STEP 04 / 06", "title": "移动", "text": "单位可以移动到相邻且未被敌方占领的战区。移动花行动花费；一个单位通常每回合行动一次。", "zones": [1, 2], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 2, "guard": 1, "enemy": 3, "faith-left": 0, "faith-right": 4}},
-        {"kicker": "STEP 05 / 06", "title": "攻击", "text": "攻击造成攻击力伤害，同时受到目标攻击力的反击。射手无视守护，也不能造成或受到反击；法师在任意战区。", "zones": [2, 3], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 2, "guard": 1, "enemy": 3, "faith-left": 0, "faith-right": 4}},
-        {"kicker": "STEP 06 / 06", "title": "防御", "text": "防御是指向己方目标、触发防御效果的行动。每受一次攻击解除一层防御；下个己方回合开始，剩余的防御也解除。", "zones": [1], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 2, "guard": 1, "enemy": 3, "faith-left": 0, "faith-right": 4}},
+        {"kicker": "STEP 01 / 06", "title": "开局", "text": "先手抽 4，后手抽 5，然后调度：可以换掉等量的牌。双方各有一座 1000 防御的信仰，放在自己的末端战区；开局时，除两端信仰外，所有战区都未被占领。", "zones": [0, 4], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"faith-left": 0, "faith-right": 4}},
+        {"kicker": "STEP 02 / 06", "title": "回合开始", "text": "除先手第一回合外，回合开始抽 1。魔力上限 +1，并回满当前魔力。上限到 12 后停止自然增长；硬上限是 24。", "zones": [0, 4], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"faith-left": 0, "faith-right": 4}},
+        {"kicker": "STEP 03 / 06", "title": "出牌", "text": "单位牌只能加入己方末端战区，不能直接放进中间。手牌上限 9；溢出的牌放回卡组底部。0 费不等于机动；机动是词条，写在卡上。", "zones": [0], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 0, "guard": 0, "faith-left": 0, "faith-right": 4}},
+        {"kicker": "STEP 04 / 06", "title": "移动", "text": "单位可以移动到相邻且未被占领、或己方占领的战区；不能进入敌方战区。移动花行动花费；一个单位通常每回合行动一次。", "zones": [0, 1, 3], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 1, "guard": 0, "enemy": 3, "faith-left": 0, "faith-right": 4}},
+        {"kicker": "STEP 05 / 06", "title": "攻击", "text": "攻击是单位的行动：造成攻击力伤害，同时受到目标攻击力的反击。魔法不是攻击，守护不能挡魔法。射手无视守护，也不能造成或受到反击；法师在任意战区。", "zones": [2, 3], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 2, "guard": 0, "enemy": 3, "faith-left": 0, "faith-right": 4}},
+        {"kicker": "STEP 06 / 06", "title": "防御", "text": "防御是指向己方目标、触发防御效果的行动。每受一次攻击解除一层防御；下个己方回合开始，剩余的防御也解除。", "zones": [0, 2], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 2, "guard": 0, "enemy": 3, "faith-left": 0, "faith-right": 4}},
     ]
 
     keywords = "".join(
@@ -776,16 +777,16 @@ def build_play() -> str:
   <div class="wrap">
     <p class="eyebrow">HOW TO PLAY</p>
     <h1>玩法</h1>
-    <p class="lead">五战区，两座信仰，一副 40 张的卡组。你每回合做的事情不多：出牌、移动、攻击、防御。难的是把哪一件事留到下一回合。</p>
-    <div class="hero-latin">FIVE ZONES · TWO FAITHS · FORTY CARDS</div>
+    <p class="lead">随机地图，两座信仰，一副 40 张的卡组。你每回合做的事情不多：出牌、移动、攻击、防御。难的是把哪一件事留到下一回合。</p>
+    <div class="hero-latin">RANDOM MAP · TWO FAITHS · FORTY CARDS</div>
   </div>
 </section>
 <div class="wrap">
   <section class="rule-block">
     <h2><span class="num">01 / BATTLEFIELD</span>战场</h2>
-    <p class="lead">战场由随机地图决定，但两端一定是双方的信仰，且末端战区不可被占领。中间的战区数量与连接方式会随地图变化；下面是最小结构。</p>
+    <p class="lead">战场由随机地图决定：两端一定是双方的信仰，末端战区不可被敌方占领，但己方单位可以从手牌加入。中间的战区数量、连接方式与每个战区的容量都随地图变化；开局时，除两端信仰外，所有战区都未被占领。下面只是最小结构。</p>
     <div class="battlefield">{''.join(zone_html)}</div>
-    <div class="battlefield-caption"><span>末端：信仰 · 不可占领</span><span>中央：争夺区 · 由地图决定</span></div>
+    <div class="battlefield-caption"><span>末端：信仰 · 敌方不可占领</span><span>中央：未占领 · 数量与容量由地图决定</span></div>
   </section>
   <section class="rule-block">
     <h2><span class="num">02 / TURN</span>一个回合</h2>
@@ -803,13 +804,14 @@ def build_play() -> str:
         <h3>行动</h3>
         <ul>
           <li>每个单位通常每回合行动一次，支付行动花费。</li>
-          <li>攻击：相邻或射程内，造成攻击力伤害并受反击。</li>
+          <li>攻击：相邻或射程内，造成攻击力伤害并受反击；攻击只是单位的行动。</li>
+          <li>魔法：可以被指向、可以造成伤害，但不算「攻击」；守护不能替目标接魔法。</li>
           <li>防御：指向己方目标，触发防御效果。</li>
-          <li>移动：到相邻且未被敌方占领的战区。</li>
+          <li>移动：到相邻且未被占领、或己方占领的战区；不能进入敌方战区。</li>
         </ul>
       </div>
     </div>
-    <p class="rule-note"><b>卡组：</b> 40 张，从「新的勇者」「同盟军」「魔王军」中选一个阵营，只能带该阵营与通用牌。英雄与天赋在构筑时合成一张牌；一副卡组可以带多位不同英雄。</p>
+    <p class="rule-note"><b>卡组：</b> 40 张，从「新的勇者」「同盟军」「魔王军」中选一个阵营，只能带该阵营与通用牌。英雄与天赋在构筑时合成一张牌，天赋在卡组与收藏中均最多 1 张；一副卡组可以带多位不同英雄。单位牌只能加入己方末端战区。</p>
   </section>
   <section class="rule-block">
     <h2><span class="num">03 / UNITS</span>三类单位</h2>
@@ -832,7 +834,7 @@ def build_play() -> str:
     <div class="rule-cols">
       <div>
         <h3>信仰</h3>
-        <p>双方末端战区各有一座信仰，1000 防御，无法行动。它可以被普通攻击，但不会反击。摧毁对方信仰即获胜。</p>
+        <p>双方末端战区各有一座信仰，1000 防御，无法行动。它可以被单位攻击，但不会反击；魔法也可以对它造成伤害，但那不属于「攻击」。摧毁对方信仰即获胜。守护可以保护信仰，但只对单位的攻击生效。</p>
       </div>
       <div>
         <h3>英雄</h3>
@@ -868,7 +870,7 @@ def build_play() -> str:
     <script type="application/json" id="demo-data">{json.dumps({"steps": steps, "motto": MOTTO}, ensure_ascii=False)}</script>
   </section>
 </div>"""
-    return page("玩法", "../", rebase_root(body), active="game", desc="长歌卡牌玩法：五战区、回合流程、三类单位、信仰与十八个规则词条，附一个可点击的回合演示。")
+    return page("玩法", "../", rebase_root(body), active="game", desc="长歌卡牌玩法：随机地图、回合流程、三类单位、信仰与十八个规则词条，附一个可点击的回合演示。")
 
 
 # ---------------------------------------------------------------- concept
