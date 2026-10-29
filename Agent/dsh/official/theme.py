@@ -29,6 +29,7 @@ CSS = r"""
   --head:72px;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
 body{
   margin:0;background:var(--paper);color:var(--ink);
