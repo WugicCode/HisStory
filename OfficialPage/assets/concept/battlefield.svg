@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#f4efe4"/>
+<rect width="1200" height="760" fill="url(#none)" opacity="0"/>
+<rect x="26" y="26" width="1148" height="708" fill="none" stroke="#171c26" stroke-width=".8" opacity=".4"/>
+<rect x="38" y="38" width="1124" height="684" fill="none" stroke="#a67c3d" stroke-width=".6" opacity=".4"/>
+<text x="56" y="70" font-family="Georgia, Times New Roman, serif" font-size="10" fill="#a67c3d" text-anchor="start" letter-spacing="3" opacity="0.75">PLATE V</text>
+<text x="56" y="108" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="26" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">战场</text>
+<text x="56" y="136" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">THE FIVE ZONES</text>
+<rect x="70" y="210" width="196" height="330" fill="#a67c3d" opacity=".04"/>
+<rect x="70" y="210" width="196" height="330" fill="none" stroke="#171c26" stroke-width=".9" opacity=".55"/>
+<text x="168" y="240" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#a67c3d" text-anchor="middle" letter-spacing="2" opacity="0.75">END</text>
+<circle cx="168" cy="380" r="46" fill="none" stroke="#a67c3d" stroke-width="1.4"/>
+<path d="M168 340 V420 M128 380 H208" stroke="#a67c3d" stroke-width=".8" opacity=".6"/>
+<text x="168" y="386" font-family="Georgia,serif" font-size="16" fill="#171c26" text-anchor="middle">1000</text>
+<text x="88" y="572" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.75" font-weight="400">末端 · 信仰</text>
+<rect x="286" y="210" width="196" height="330" fill="#a67c3d" opacity=".04"/>
+<rect x="286" y="210" width="196" height="330" fill="none" stroke="#171c26" stroke-width=".9" opacity=".55"/>
+<text x="384" y="240" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#a67c3d" text-anchor="middle" letter-spacing="2" opacity="0.75">II</text>
+<rect x="330" y="330" width="46" height="58" fill="none" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<circle cx="353" cy="352" r="7" fill="#a67c3d" opacity=".55"/>
+<line x1="342" y1="374" x2="364" y2="374" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<rect x="392" y="392" width="46" height="58" fill="none" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<circle cx="415" cy="414" r="7" fill="#a67c3d" opacity=".55"/>
+<line x1="404" y1="436" x2="426" y2="436" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<text x="304" y="572" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.75" font-weight="400">战区 II</text>
+<rect x="502" y="210" width="196" height="330" fill="#a67c3d" opacity=".04"/>
+<rect x="502" y="210" width="196" height="330" fill="none" stroke="#171c26" stroke-width=".9" opacity=".55"/>
+<text x="600" y="240" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#a67c3d" text-anchor="middle" letter-spacing="2" opacity="0.75">III</text>
+<rect x="546" y="330" width="46" height="58" fill="none" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<circle cx="569" cy="352" r="7" fill="#a67c3d" opacity=".55"/>
+<line x1="558" y1="374" x2="580" y2="374" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<rect x="608" y="392" width="46" height="58" fill="none" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<circle cx="631" cy="414" r="7" fill="#a67c3d" opacity=".55"/>
+<line x1="620" y1="436" x2="642" y2="436" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<text x="520" y="572" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.75" font-weight="400">战区 III</text>
+<rect x="718" y="210" width="196" height="330" fill="#a67c3d" opacity=".04"/>
+<rect x="718" y="210" width="196" height="330" fill="none" stroke="#171c26" stroke-width=".9" opacity=".55"/>
+<text x="816" y="240" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#a67c3d" text-anchor="middle" letter-spacing="2" opacity="0.75">IV</text>
+<rect x="762" y="330" width="46" height="58" fill="none" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<circle cx="785" cy="352" r="7" fill="#a67c3d" opacity=".55"/>
+<line x1="774" y1="374" x2="796" y2="374" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<rect x="824" y="392" width="46" height="58" fill="none" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<circle cx="847" cy="414" r="7" fill="#a67c3d" opacity=".55"/>
+<line x1="836" y1="436" x2="858" y2="436" stroke="#171c26" stroke-width=".8" opacity=".5"/>
+<text x="736" y="572" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.75" font-weight="400">战区 IV</text>
+<rect x="934" y="210" width="196" height="330" fill="#a67c3d" opacity=".04"/>
+<rect x="934" y="210" width="196" height="330" fill="none" stroke="#171c26" stroke-width=".9" opacity=".55"/>
+<text x="1032" y="240" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#a67c3d" text-anchor="middle" letter-spacing="2" opacity="0.75">END</text>
+<circle cx="1032" cy="380" r="46" fill="none" stroke="#a67c3d" stroke-width="1.4"/>
+<path d="M1032 340 V420 M992 380 H1072" stroke="#a67c3d" stroke-width=".8" opacity=".6"/>
+<text x="1032" y="386" font-family="Georgia,serif" font-size="16" fill="#171c26" text-anchor="middle">1000</text>
+<text x="952" y="572" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.75" font-weight="400">末端 · 信仰</text>
+<path d="M270 620 C360 600 420 620 510 600" fill="none" stroke="#a67c3d" stroke-width="1" marker-end="url(#arrow)"/>
+<path d="M930 620 C840 600 780 620 690 600" fill="none" stroke="#a67c3d" stroke-width="1"/>
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0 L8 4 L0 8 Z" fill="#a67c3d"/></marker></defs>
+<text x="70" y="700" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="14" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.7" font-weight="400">单位在战区之间移动；攻击只能指向相邻战区，射手与法师除外。</text>
+</svg>

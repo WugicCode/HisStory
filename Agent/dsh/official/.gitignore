@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+preview/
+shots/
+_dump*.txt
+_motifs.txt
+_tmp.json
+cards_dump.json
+_notes_review.md
+list_cards.py
+show_cards.py
