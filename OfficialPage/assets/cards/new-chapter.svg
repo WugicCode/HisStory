@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750">
+<defs>
+  <clipPath id="artclip"><rect x="48" y="92" width="504" height="420"/></clipPath>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.16 0"/></filter>
+</defs>
+<rect width="600" height="750" fill="#171c26"/>
+<rect width="600" height="750" fill="#f4efe4" filter="url(#grain)" opacity=".16"/>
+<rect x="24" y="24" width="552" height="702" fill="none" stroke="#f4efe4" stroke-width="1.1" opacity=".55"/>
+<rect x="36" y="36" width="528" height="678" fill="none" stroke="#a67c3d" stroke-width=".8" opacity=".5"/>
+<path d="M24 50 V24 H50 M550 24 H576 V50 M576 700 V726 H550 M50 726 H24 V700" fill="none" stroke="#a67c3d" stroke-width="1.4" opacity=".85"/>
+<text x="48" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="start" letter-spacing="3.2" opacity="0.7">HIS STORY / CARD ARCHIVE</text><text x="552" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="end" letter-spacing="2.4" opacity="0.7">PLATE 023</text>
+<rect x="24" y="512" width="552" height="150" fill="#1d2430"/>
+<g clip-path="url(#artclip)">
+  <rect x="48" y="92" width="504" height="420" fill="#312d2a"/>
+  <g transform="translate(48 92)"><rect x="30" y="344.4" width="444" height="20" fill="none" stroke="#a67c3d" stroke-width="1.1" opacity="0.55"/>
+<rect x="64" y="308.4" width="410" height="56" fill="none" stroke="#f4efe4" stroke-width="0.5" opacity="0.25"/>
+<rect x="98" y="272.4" width="376" height="92" fill="none" stroke="#a67c3d" stroke-width="1.1" opacity="0.55"/>
+<rect x="132" y="236.39999999999998" width="342" height="128" fill="none" stroke="#f4efe4" stroke-width="0.5" opacity="0.25"/>
+<rect x="166" y="200.39999999999998" width="308" height="164" fill="none" stroke="#a67c3d" stroke-width="1.1" opacity="0.55"/>
+<rect x="200" y="164.39999999999998" width="274" height="200" fill="none" stroke="#f4efe4" stroke-width="0.5" opacity="0.25"/>
+<rect x="234" y="128.39999999999998" width="240" height="236" fill="none" stroke="#a67c3d" stroke-width="1.1" opacity="0.55"/>
+<line x1="30" y1="378" x2="474" y2="378" stroke="#f4efe4" stroke-width="1" opacity=".4"/></g>
+  <text x="552" y="494" font-family="Georgia,serif" font-size="11" letter-spacing="3" fill="#a67c3d" text-anchor="end" opacity=".85">OUTSIDE / NOT COLLECTIBLE</text>
+  <text x="534" y="484" font-family="Georgia, serif" font-size="168" fill="#f4efe4" opacity=".07" text-anchor="end">23</text>
+  <g transform="translate(363.9 157.6) rotate(-6.856966991983434 52.0 52.0) scale(1.0400)" color="#a67c3d" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M40 8 C46 30 28 44 36 62 C42 76 34 84 30 94"/><path d="M56 8 C62 30 44 44 52 62 C58 76 50 84 46 94"/><path d="M44 18 H52 M40 32 H48 M42 48 H50 M38 64 H46 M36 80 H44" opacity=".6"/></g><g transform="translate(266.2 327.0) rotate(-2.9230334478305267 59.0 59.0) scale(1.1800)" color="#f4efe4" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="38" r="18"/><circle cx="32" cy="38" r="7"/><path d="M44 50 L84 90"/><path d="M70 76 L78 68 M78 84 L86 76"/></g><g transform="translate(118.1 168.8) rotate(5.251035704311127 66.0 66.0) scale(1.3200)" color="#a67c3d" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="50" r="24"/><path d="M50 6 V17 M50 83 V94 M6 50 H17 M83 50 H94 M19 19 L27 27 M73 73 L81 81 M81 19 L73 27 M27 73 L19 81"/></g>
+</g>
+<rect x="48" y="92" width="504" height="420" fill="none" stroke="#f4efe4" stroke-width="1" opacity=".55"/>
+<rect x="55" y="99" width="490" height="406" fill="none" stroke="#f4efe4" stroke-width=".5" opacity=".22"/>
+<circle cx="78" cy="584" r="29" fill="#a67c3d" opacity=".14"/>
+<circle cx="78" cy="584" r="29" fill="none" stroke="#a67c3d" stroke-width="1.2"/>
+<text x="78" y="598" font-family="Georgia, serif" font-size="30" fill="#f4efe4" text-anchor="middle">1</text>
+<text x="126" y="594" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="38" fill="#f4efe4" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">新章</text>
+<text x="126" y="624" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="14" fill="#91908e" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">魔法</text>
+<text x="126" y="648" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#a67c3d" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">诺维安 · 域外完全体</text>
+<text x="126" y="674" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#91908e" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">新的勇者 · 域外</text>
+<text x="552" y="648" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#a67c3d" text-anchor="end" letter-spacing="2" opacity="0.75">OUTSIDE</text>
+<text x="552" y="674" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#91908e" text-anchor="end" letter-spacing="1.2" opacity="0.75"></text>
+<line x1="48" y1="694" x2="552" y2="694" stroke="#f4efe4" stroke-width=".6" opacity=".28"/>
+<text x="574" y="380" font-family="Noto Serif SC, Songti SC, serif" font-size="12" fill="#f4efe4" opacity=".35" transform="rotate(90 574 380)" text-anchor="middle">长歌 · 卡牌档案</text>
+<text x="48" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="start" letter-spacing="3.4" opacity="0.55">HIS STORY</text><text x="552" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="end" letter-spacing="2.4" opacity="0.55">023 / 086</text>
+</svg>

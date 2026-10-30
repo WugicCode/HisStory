@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360">
+<rect width="360" height="360" fill="#f4efe4"/>
+<rect width="360" height="360" fill="#171c26" opacity=".035"/>
+<circle cx="180.0" cy="180.0" r="159.6" fill="none" stroke="#171c26" stroke-width=".7" opacity=".35"/>
+<circle cx="180.0" cy="180.0" r="147.6" fill="none" stroke="#5b4a6b" stroke-width=".8" opacity=".6"/>
+<circle cx="180.0" cy="180.0" r="129.6" fill="#5b4a6b" opacity=".08"/>
+<circle cx="180.0" cy="180.0" r="129.6" fill="none" stroke="#171c26" stroke-width="1.1"/>
+<line x1="329.6" y1="180.0" x2="335.6" y2="180.0" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="324.5" y1="218.7" x2="326.4" y2="219.2" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="309.6" y1="254.8" x2="311.3" y2="255.8" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="285.8" y1="285.8" x2="290.0" y2="290.0" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="254.8" y1="309.6" x2="255.8" y2="311.3" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="218.7" y1="324.5" x2="219.2" y2="326.4" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="180.0" y1="329.6" x2="180.0" y2="335.6" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="141.3" y1="324.5" x2="140.8" y2="326.4" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="105.2" y1="309.6" x2="104.2" y2="311.3" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="74.2" y1="285.8" x2="70.0" y2="290.0" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="50.4" y1="254.8" x2="48.7" y2="255.8" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="35.5" y1="218.7" x2="33.6" y2="219.2" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="30.4" y1="180.0" x2="24.4" y2="180.0" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="35.5" y1="141.3" x2="33.6" y2="140.8" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="50.4" y1="105.2" x2="48.7" y2="104.2" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="74.2" y1="74.2" x2="70.0" y2="70.0" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="105.2" y1="50.4" x2="104.2" y2="48.7" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="141.3" y1="35.5" x2="140.8" y2="33.6" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="180.0" y1="30.4" x2="180.0" y2="24.4" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="218.7" y1="35.5" x2="219.2" y2="33.6" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="254.8" y1="50.4" x2="255.8" y2="48.7" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="285.8" y1="74.2" x2="290.0" y2="70.0" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="309.6" y1="105.2" x2="311.3" y2="104.2" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<line x1="324.5" y1="141.3" x2="326.4" y2="140.8" stroke="#5b4a6b" stroke-width=".6" opacity=".55"/>
+<g transform="translate(97.1 126.9) rotate(-8 40.175999999999995 40.175999999999995) scale(0.8035)" color="#171c26" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M50 50 L50 6 M50 50 L88 26 M50 50 L92 62 M50 50 L70 92 M50 50 L30 92 M50 50 L8 62 M50 50 L12 26"/><path d="M50 22 C66 22 78 34 78 50 C78 66 66 78 50 78 C34 78 22 66 22 50 C22 34 34 22 50 22 Z" opacity=".6"/><path d="M50 36 C58 36 64 42 64 50 C64 58 58 64 50 64 C42 64 36 58 36 50 C36 42 42 36 50 36 Z" opacity=".4"/></g>
+<g transform="translate(193.0 165.7) rotate(10 29.808 29.808) scale(0.5962)" color="#5b4a6b" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 58 C12 46 20 30 36 30 C40 18 58 14 68 24 C86 22 92 42 80 52 C86 64 72 74 60 68 C50 80 30 74 20 58 Z"/><path d="M36 48 C44 42 56 42 64 48"/><path d="M42 56 C47 60 53 60 58 56"/></g>
+<text x="180.0" y="353.6" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="middle" letter-spacing="3.2" opacity="0.65">MOFEI</text>
+<text x="180.0" y="38.400000000000006" font-family="Georgia,serif" font-size="11" letter-spacing="3" fill="#5b4a6b" text-anchor="middle">XX</text>
+</svg>

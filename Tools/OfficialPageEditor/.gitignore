@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.edge-test*/
+shots/
+_nodes.json
+_writetest.txt
+_patchtest_*/

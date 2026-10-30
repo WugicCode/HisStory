@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750">
+<defs>
+  <clipPath id="artclip"><rect x="48" y="92" width="504" height="420"/></clipPath>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.16 0"/></filter>
+</defs>
+<rect width="600" height="750" fill="#f4efe4"/>
+<rect width="600" height="750" fill="#171c26" filter="url(#grain)" opacity=".16"/>
+<rect x="24" y="24" width="552" height="702" fill="none" stroke="#171c26" stroke-width="1.1" opacity=".55"/>
+<rect x="36" y="36" width="528" height="678" fill="none" stroke="#5b4a6b" stroke-width=".8" opacity=".5"/>
+<path d="M24 50 V24 H50 M550 24 H576 V50 M576 700 V726 H550 M50 726 H24 V700" fill="none" stroke="#5b4a6b" stroke-width="1.4" opacity=".85"/>
+<text x="48" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="start" letter-spacing="3.2" opacity="0.7">HIS STORY / CARD ARCHIVE</text><text x="552" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="end" letter-spacing="2.4" opacity="0.7">PLATE 086</text>
+
+<g clip-path="url(#artclip)">
+  <rect x="48" y="92" width="504" height="420" fill="#e0dad4"/>
+  <g transform="translate(48 92)"><line x1="0" y1="0" x2="0" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="36" y1="0" x2="36" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="72" y1="0" x2="72" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="108" y1="0" x2="108" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="144" y1="0" x2="144" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="180" y1="0" x2="180" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="216" y1="0" x2="216" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="252" y1="0" x2="252" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="288" y1="0" x2="288" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="324" y1="0" x2="324" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="360" y1="0" x2="360" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="396" y1="0" x2="396" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="432" y1="0" x2="432" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="468" y1="0" x2="468" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="504" y1="0" x2="504" y2="420" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="0" x2="504" y2="0" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="36" x2="504" y2="36" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="72" x2="504" y2="72" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="108" x2="504" y2="108" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="144" x2="504" y2="144" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="180" x2="504" y2="180" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="216" x2="504" y2="216" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="252" x2="504" y2="252" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="288" x2="504" y2="288" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="324" x2="504" y2="324" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="360" x2="504" y2="360" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<line x1="0" y1="396" x2="504" y2="396" stroke="#171c26" stroke-width=".5" opacity=".18"/>
+<rect x="144" y="108" width="144" height="144" fill="#5b4a6b" opacity=".16"/>
+<circle cx="277" cy="202" r="98" fill="none" stroke="#5b4a6b" stroke-width="1.2" opacity=".8"/>
+<circle cx="277" cy="202" r="98" fill="#f4efe4" opacity=".18"/></g>
+  <rect x="48" y="92" width="504" height="420" fill="none" stroke="#5b4a6b" stroke-width="2"/><rect x="56" y="100" width="488" height="404" fill="none" stroke="#171c26" stroke-width=".6" opacity=".5"/>
+  <text x="534" y="484" font-family="Georgia, serif" font-size="168" fill="#171c26" opacity=".07" text-anchor="end">86</text>
+  <g transform="translate(266.2 327.0) rotate(-7.14885279526146 59.0 59.0) scale(1.1800)" color="#5b4a6b" opacity="0.88" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M50 50 L50 6 M50 50 L88 26 M50 50 L92 62 M50 50 L70 92 M50 50 L30 92 M50 50 L8 62 M50 50 L12 26"/><path d="M50 22 C66 22 78 34 78 50 C78 66 66 78 50 78 C34 78 22 66 22 50 C22 34 34 22 50 22 Z" opacity=".6"/><path d="M50 36 C58 36 64 42 64 50 C64 58 58 64 50 64 C42 64 36 58 36 50 C36 42 42 36 50 36 Z" opacity=".4"/></g><g transform="translate(363.9 157.6) rotate(-5.35670618069982 52.0 52.0) scale(1.0400)" color="#171c26" opacity="0.88" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M62 10 C38 18 26 38 32 58 C38 76 56 88 76 84 C58 74 50 58 54 42 C57 28 68 16 62 10 Z" fill="currentColor" fill-opacity=".15"/></g><g transform="translate(118.1 168.8) rotate(0.051691131358472475 66.0 66.0) scale(1.3200)" color="#5b4a6b" opacity="0.88" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 58 C12 46 20 30 36 30 C40 18 58 14 68 24 C86 22 92 42 80 52 C86 64 72 74 60 68 C50 80 30 74 20 58 Z"/><path d="M36 48 C44 42 56 42 64 48"/><path d="M42 56 C47 60 53 60 58 56"/></g>
+</g>
+<rect x="48" y="92" width="504" height="420" fill="none" stroke="#171c26" stroke-width="1" opacity=".55"/>
+<rect x="55" y="99" width="490" height="406" fill="none" stroke="#171c26" stroke-width=".5" opacity=".22"/>
+<circle cx="78" cy="584" r="29" fill="#5b4a6b" opacity=".14"/>
+<circle cx="78" cy="584" r="29" fill="none" stroke="#5b4a6b" stroke-width="1.2"/>
+<text x="78" y="598" font-family="Georgia, serif" font-size="30" fill="#171c26" text-anchor="middle">1</text>
+<text x="126" y="594" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="38" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">捕梦网</text>
+<text x="126" y="624" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="14" fill="#7a7b7c" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">魔法</text>
+<text x="126" y="648" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#5b4a6b" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">莫菲 · 一费战区锁</text>
+<text x="126" y="674" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#7a7b7c" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">魔王军 · 传说</text>
+<text x="552" y="648" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#5b4a6b" text-anchor="end" letter-spacing="2" opacity="0.75">LEGEND</text>
+<text x="552" y="674" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#7a7b7c" text-anchor="end" letter-spacing="1.2" opacity="0.75"></text>
+<line x1="48" y1="694" x2="552" y2="694" stroke="#171c26" stroke-width=".6" opacity=".28"/>
+<text x="574" y="380" font-family="Noto Serif SC, Songti SC, serif" font-size="12" fill="#171c26" opacity=".35" transform="rotate(90 574 380)" text-anchor="middle">长歌 · 卡牌档案</text>
+<text x="48" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="start" letter-spacing="3.4" opacity="0.55">HIS STORY</text><text x="552" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="end" letter-spacing="2.4" opacity="0.55">086 / 086</text>
+</svg>

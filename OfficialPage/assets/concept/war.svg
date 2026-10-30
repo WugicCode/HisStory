@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#171c26"/>
+<rect width="1200" height="760" fill="url(#none)" opacity="0"/>
+<rect x="26" y="26" width="1148" height="708" fill="none" stroke="#f4efe4" stroke-width=".8" opacity=".4"/>
+<rect x="38" y="38" width="1124" height="684" fill="none" stroke="#9e3b3b" stroke-width=".6" opacity=".4"/>
+<text x="56" y="70" font-family="Georgia, Times New Roman, serif" font-size="10" fill="#9e3b3b" text-anchor="start" letter-spacing="3" opacity="0.75">PLATE IV</text>
+<text x="56" y="108" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="26" fill="#f4efe4" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">七贤者</text>
+<text x="56" y="136" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#f4efe4" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">THE SEVEN SAGES</text>
+<line x1="90" y1="190" x2="90" y2="600" stroke="#f4efe4" stroke-width="1" opacity=".5"/>
+<path d="M56 190 H124 L124 430 L90 470 L56 430 Z" fill="#9e3b3b" opacity=".12"/>
+<g transform="translate(47.0 257.0) rotate(0 43.0 43.0) scale(0.8600)" color="#9e3b3b" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M50 6 L57 46 L50 56 L43 46 Z"/><path d="M28 62 H72"/><path d="M50 56 V88"/><circle cx="50" cy="90" r="4"/></g>
+<text x="90" y="540" font-family="Noto Serif SC, Songti SC, serif" font-size="16" fill="#f4efe4" text-anchor="middle">荷珀</text>
+<text x="90" y="566" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#9e3b3b" text-anchor="middle" letter-spacing="2" opacity="0.75">01</text>
+<line x1="238" y1="190" x2="238" y2="600" stroke="#f4efe4" stroke-width="1" opacity=".5"/>
+<path d="M204 190 H272 L272 430 L238 470 L204 430 Z" fill="#9e3b3b" opacity=".12"/>
+<g transform="translate(195.0 257.0) rotate(0 43.0 43.0) scale(0.8600)" color="#f4efe4" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M62 10 C38 18 26 38 32 58 C38 76 56 88 76 84 C58 74 50 58 54 42 C57 28 68 16 62 10 Z" fill="currentColor" fill-opacity=".15"/></g>
+<text x="238" y="540" font-family="Noto Serif SC, Songti SC, serif" font-size="16" fill="#f4efe4" text-anchor="middle">斯卡琳</text>
+<text x="238" y="566" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#9e3b3b" text-anchor="middle" letter-spacing="2" opacity="0.75">02</text>
+<line x1="386" y1="190" x2="386" y2="600" stroke="#f4efe4" stroke-width="1" opacity=".5"/>
+<path d="M352 190 H420 L420 430 L386 470 L352 430 Z" fill="#9e3b3b" opacity=".12"/>
+<g transform="translate(343.0 257.0) rotate(0 43.0 43.0) scale(0.8600)" color="#9e3b3b" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M22 38 L38 14 L70 10 L88 32 L82 70 L58 90 L26 78 Z"/><path d="M38 14 L48 40 L26 78 M48 40 L70 10 M48 40 L82 70 M48 40 L58 90" opacity=".45"/></g>
+<text x="386" y="540" font-family="Noto Serif SC, Songti SC, serif" font-size="16" fill="#f4efe4" text-anchor="middle">克莱斯特</text>
+<text x="386" y="566" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#9e3b3b" text-anchor="middle" letter-spacing="2" opacity="0.75">03</text>
+<line x1="534" y1="190" x2="534" y2="600" stroke="#f4efe4" stroke-width="1" opacity=".5"/>
+<path d="M500 190 H568 L568 430 L534 470 L500 430 Z" fill="#9e3b3b" opacity=".12"/>
+<g transform="translate(491.0 257.0) rotate(0 43.0 43.0) scale(0.8600)" color="#f4efe4" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="50" r="24"/><path d="M50 6 V17 M50 83 V94 M6 50 H17 M83 50 H94 M19 19 L27 27 M73 73 L81 81 M81 19 L73 27 M27 73 L19 81"/></g>
+<text x="534" y="540" font-family="Noto Serif SC, Songti SC, serif" font-size="16" fill="#f4efe4" text-anchor="middle">赫琉思</text>
+<text x="534" y="566" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#9e3b3b" text-anchor="middle" letter-spacing="2" opacity="0.75">04</text>
+<line x1="682" y1="190" x2="682" y2="600" stroke="#f4efe4" stroke-width="1" opacity=".5"/>
+<path d="M648 190 H716 L716 430 L682 470 L648 430 Z" fill="#9e3b3b" opacity=".12"/>
+<g transform="translate(639.0 257.0) rotate(0 43.0 43.0) scale(0.8600)" color="#9e3b3b" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M50 8 L58 42 L50 52 L42 42 Z"/><path d="M30 54 H70"/><path d="M50 52 V86"/><path d="M44 86 H56"/></g>
+<text x="682" y="540" font-family="Noto Serif SC, Songti SC, serif" font-size="16" fill="#f4efe4" text-anchor="middle">阿尔法</text>
+<text x="682" y="566" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#9e3b3b" text-anchor="middle" letter-spacing="2" opacity="0.75">05</text>
+<line x1="830" y1="190" x2="830" y2="600" stroke="#f4efe4" stroke-width="1" opacity=".5"/>
+<path d="M796 190 H864 L864 430 L830 470 L796 430 Z" fill="#9e3b3b" opacity=".12"/>
+<g transform="translate(787.0 257.0) rotate(0 43.0 43.0) scale(0.8600)" color="#f4efe4" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M50 26 V92"/><path d="M22 26 H78 V44 H22 Z"/><path d="M30 18 H70" opacity=".55"/><path d="M20 92 H80"/></g>
+<text x="830" y="540" font-family="Noto Serif SC, Songti SC, serif" font-size="16" fill="#f4efe4" text-anchor="middle">戈伦</text>
+<text x="830" y="566" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#9e3b3b" text-anchor="middle" letter-spacing="2" opacity="0.75">06</text>
+<line x1="978" y1="190" x2="978" y2="600" stroke="#f4efe4" stroke-width="1" opacity=".5"/>
+<path d="M944 190 H1012 L1012 430 L978 470 L944 430 Z" fill="#9e3b3b" opacity=".12"/>
+<g transform="translate(935.0 257.0) rotate(0 43.0 43.0) scale(0.8600)" color="#9e3b3b" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 70 H92"/><path d="M22 70 C22 44 38 28 50 28 C62 28 78 44 78 70"/><path d="M50 10 V22 M14 30 L22 38 M86 30 L78 38"/></g>
+<text x="978" y="540" font-family="Noto Serif SC, Songti SC, serif" font-size="16" fill="#f4efe4" text-anchor="middle">欧若拉</text>
+<text x="978" y="566" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#9e3b3b" text-anchor="middle" letter-spacing="2" opacity="0.75">07</text>
+<text x="56" y="690" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="15" fill="#f4efe4" text-anchor="start" letter-spacing="0" opacity="0.75" font-weight="400">他们终结了三十年的战争，也把一些问题留给了五百年后。</text>
+</svg>
