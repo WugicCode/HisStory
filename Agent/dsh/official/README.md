@@ -46,7 +46,7 @@ python check.py
 
 ## 发布
 
-`OfficialPage/` 已经是 GitPage-ready：入口 `OfficialPage/index.html`，含 `.nojekyll`。把该目录作为 Pages 根目录发布即可。卡页与资源全部使用相对路径；换到子路径（例如 `/HisStory/`）也不需要改代码。
+`OfficialPage/` 已经是 GitPage-ready：入口 `OfficialPage/index.html`，含 `.nojekyll`。仓库使用 GitHub Actions 发布：`.github/workflows/pages.yml` 会在 `dev` 分支的 `OfficialPage/` 变化时上传该目录。GitHub 仓库的 `Settings → Pages → Source` 选 **GitHub Actions** 即可。卡页与资源全部使用相对路径；换到子路径（例如 `/HisStory/`）也不需要改代码。
 
 ## 分支
 
