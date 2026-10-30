@@ -5,7 +5,7 @@ PROJECT = {
     "title": "长歌",
     "latin": "His Story",
     "subtitle": "一个由小说、音乐与游戏构成的联合企划",
-    "author": "MugicFloy",
+    "author": "WugicFloy",
     "edition": "企划官方页 · 第一版",
     "date": "2026.10",
 }
