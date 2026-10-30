@@ -360,11 +360,11 @@ def card_svg(card, meta, index, total=86):
 
     # header / footer
     header = (
-        _latin(48, 64, "HISTORY / CARD ARCHIVE", 9, fg, spacing=3.2, opacity=.7)
+        _latin(48, 64, "HIS STORY / CARD ARCHIVE", 9, fg, spacing=3.2, opacity=.7)
         + _latin(552, 64, "PLATE %03d" % index, 9, fg, "end", 2.4, .7)
     )
     footer = (
-        _latin(48, 720, "LONG SONG", 9, fg, spacing=3.4, opacity=.55)
+        _latin(48, 720, "HIS STORY", 9, fg, spacing=3.4, opacity=.55)
         + _latin(552, 720, "%03d / %03d" % (index, total), 9, fg, "end", 2.4, .55)
     )
 

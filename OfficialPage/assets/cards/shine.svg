@@ -8,7 +8,7 @@
 <rect x="24" y="24" width="552" height="702" fill="none" stroke="#171c26" stroke-width="1.1" opacity=".55"/>
 <rect x="36" y="36" width="528" height="678" fill="none" stroke="#a67c3d" stroke-width=".8" opacity=".5"/>
 <path d="M24 50 V24 H50 M550 24 H576 V50 M576 700 V726 H550 M50 726 H24 V700" fill="none" stroke="#a67c3d" stroke-width="1.4" opacity=".85"/>
-<text x="48" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="start" letter-spacing="3.2" opacity="0.7">HISTORY / CARD ARCHIVE</text><text x="552" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="end" letter-spacing="2.4" opacity="0.7">PLATE 073</text>
+<text x="48" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="start" letter-spacing="3.2" opacity="0.7">HIS STORY / CARD ARCHIVE</text><text x="552" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="end" letter-spacing="2.4" opacity="0.7">PLATE 073</text>
 
 <g clip-path="url(#artclip)">
   <rect x="48" y="92" width="504" height="420" fill="#eae0ce"/>
@@ -72,5 +72,5 @@
 <text x="552" y="674" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#7a7b7c" text-anchor="end" letter-spacing="1.2" opacity="0.75"></text>
 <line x1="48" y1="694" x2="552" y2="694" stroke="#171c26" stroke-width=".6" opacity=".28"/>
 <text x="574" y="380" font-family="Noto Serif SC, Songti SC, serif" font-size="12" fill="#171c26" opacity=".35" transform="rotate(90 574 380)" text-anchor="middle">长歌 · 卡牌档案</text>
-<text x="48" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="start" letter-spacing="3.4" opacity="0.55">LONG SONG</text><text x="552" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="end" letter-spacing="2.4" opacity="0.55">073 / 086</text>
+<text x="48" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="start" letter-spacing="3.4" opacity="0.55">HIS STORY</text><text x="552" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="end" letter-spacing="2.4" opacity="0.55">073 / 086</text>
 </svg>

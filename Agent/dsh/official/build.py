@@ -186,7 +186,7 @@ def header(rel: str, active: str) -> str:
   <div class="wrap">
     <a class="brand" href="{rel}index.html" aria-label="长歌 · 首页">
       <span class="brand-dot" aria-hidden="true"></span>
-      <span class="brand-text">长歌<small>HISTORY</small></span>
+      <span class="brand-text">长歌<small>His Story</small></span>
     </a>
     <button class="nav-toggle" type="button" aria-label="打开导航" aria-controls="site-nav" aria-expanded="false"><span></span></button>
     <nav class="nav" id="site-nav" aria-label="主导航">
@@ -200,7 +200,7 @@ def footer(rel: str) -> str:
     return f"""<footer class="site-foot">
   <div class="wrap foot-grid">
     <div>
-      <div class="foot-brand">长歌 <span>HISTORY</span></div>
+      <div class="foot-brand">长歌 <span>His Story</span></div>
       <p>{esc(PROJECT["subtitle"])}。小说、音乐与游戏共用同一套世界设定，各自从不同的门进入。</p>
     </div>
     <div class="foot-links">
@@ -222,7 +222,7 @@ def footer(rel: str) -> str:
     </div>
   </div>
   <div class="wrap foot-bottom">
-    <span>长歌 · HISTORY / OFFICIAL PAGE</span>
+    <span>长歌 · His Story / OFFICIAL PAGE</span>
     <span>本页为企划归档，非商业发行页面。</span>
   </div>
 </footer>"""

@@ -3,7 +3,7 @@
 
 PROJECT = {
     "title": "长歌",
-    "latin": "HISTORY",
+    "latin": "His Story",
     "subtitle": "一个由小说、音乐与游戏构成的联合企划",
     "author": "MugicFloy",
     "edition": "企划官方页 · 第一版",
