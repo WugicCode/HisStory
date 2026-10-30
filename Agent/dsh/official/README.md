@@ -46,8 +46,8 @@ python check.py
 
 ## 发布
 
-`OfficialPage/` 已经是 GitPage-ready：入口 `OfficialPage/index.html`，含 `.nojekyll`。仓库使用 GitHub Actions 发布：`.github/workflows/pages.yml` 会在 `dev` 分支的 `OfficialPage/` 变化时上传该目录。GitHub 仓库的 `Settings → Pages → Source` 选 **GitHub Actions** 即可。卡页与资源全部使用相对路径；换到子路径（例如 `/HisStory/`）也不需要改代码。
+`OfficialPage/` 已经是 GitPage-ready：入口 `OfficialPage/index.html`，含 `.nojekyll`。仓库使用 GitHub Actions 发布：`.github/workflows/pages.yml` 会在 `main` 分支的 `OfficialPage/` 变化时上传该目录。GitHub 仓库的 `Settings → Pages → Source` 选 **GitHub Actions** 即可。卡页与资源全部使用相对路径；换到子路径（例如 `/HisStory/`）也不需要改代码。
 
 ## 分支
 
-所有改动提交在 `dsh` 分支，未经作者许可不合并到 `dev`。
+日常改动提交在 `dsh`，经 `dev` 验证后合并到 `main`；`main` 是正式发布分支，推送 `main` 才会触发 Pages 部署。
