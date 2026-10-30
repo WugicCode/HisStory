@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750">
+<defs>
+  <clipPath id="artclip"><rect x="48" y="92" width="504" height="420"/></clipPath>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.16 0"/></filter>
+</defs>
+<rect width="600" height="750" fill="#171c26"/>
+<rect width="600" height="750" fill="#f4efe4" filter="url(#grain)" opacity=".16"/>
+<rect x="24" y="24" width="552" height="702" fill="none" stroke="#f4efe4" stroke-width="1.1" opacity=".55"/>
+<rect x="36" y="36" width="528" height="678" fill="none" stroke="#5b4a6b" stroke-width=".8" opacity=".5"/>
+<path d="M24 50 V24 H50 M550 24 H576 V50 M576 700 V726 H550 M50 726 H24 V700" fill="none" stroke="#5b4a6b" stroke-width="1.4" opacity=".85"/>
+<text x="48" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="start" letter-spacing="3.2" opacity="0.7">HISTORY / CARD ARCHIVE</text><text x="552" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="end" letter-spacing="2.4" opacity="0.7">PLATE 040</text>
+<rect x="24" y="512" width="552" height="150" fill="#1d2430"/>
+<g clip-path="url(#artclip)">
+  <rect x="48" y="92" width="504" height="420" fill="#232432"/>
+  <g transform="translate(48 92)"><rect width="504" height="420" fill="#1d2430"/>
+<circle cx="85.2" cy="143.6" r="1.4" fill="#f4efe4" opacity="0.57"/>
+<circle cx="219.7" cy="338.7" r="1.3" fill="#f4efe4" opacity="0.27"/>
+<circle cx="400.1" cy="211.3" r="0.9" fill="#f4efe4" opacity="0.19"/>
+<circle cx="205.3" cy="35.1" r="1.8" fill="#f4efe4" opacity="0.49"/>
+<circle cx="197.2" cy="397.6" r="0.5" fill="#f4efe4" opacity="0.45"/>
+<circle cx="207.7" cy="285.7" r="0.6" fill="#f4efe4" opacity="0.15"/>
+<circle cx="496.6" cy="384.3" r="1.1" fill="#f4efe4" opacity="0.40"/>
+<circle cx="495.6" cy="54.5" r="1.0" fill="#f4efe4" opacity="0.33"/>
+<circle cx="26.9" cy="13.1" r="0.5" fill="#f4efe4" opacity="0.24"/>
+<circle cx="436.9" cy="256.0" r="0.5" fill="#f4efe4" opacity="0.41"/>
+<circle cx="249.6" cy="199.5" r="0.6" fill="#f4efe4" opacity="0.46"/>
+<circle cx="290.9" cy="77.3" r="1.1" fill="#f4efe4" opacity="0.15"/>
+<circle cx="132.1" cy="248.2" r="1.7" fill="#f4efe4" opacity="0.30"/>
+<circle cx="289.8" cy="321.0" r="1.1" fill="#f4efe4" opacity="0.19"/>
+<circle cx="409.7" cy="51.6" r="1.7" fill="#f4efe4" opacity="0.21"/>
+<circle cx="416.6" cy="375.5" r="0.9" fill="#f4efe4" opacity="0.12"/>
+<circle cx="247.2" cy="99.8" r="1.2" fill="#f4efe4" opacity="0.62"/>
+<circle cx="73.6" cy="206.8" r="1.6" fill="#f4efe4" opacity="0.09"/>
+<circle cx="357.3" cy="374.9" r="1.3" fill="#f4efe4" opacity="0.42"/>
+<circle cx="452.1" cy="344.6" r="0.8" fill="#f4efe4" opacity="0.46"/>
+<circle cx="344.7" cy="146.8" r="1.6" fill="#f4efe4" opacity="0.59"/>
+<circle cx="466.6" cy="256.8" r="1.4" fill="#f4efe4" opacity="0.36"/>
+<circle cx="482.1" cy="134.2" r="1.7" fill="#f4efe4" opacity="0.58"/>
+<circle cx="276.5" cy="169.3" r="0.7" fill="#f4efe4" opacity="0.32"/>
+<circle cx="305.6" cy="303.0" r="0.9" fill="#f4efe4" opacity="0.22"/>
+<circle cx="316.2" cy="11.1" r="1.6" fill="#f4efe4" opacity="0.59"/>
+<circle cx="186.6" cy="62.8" r="0.6" fill="#f4efe4" opacity="0.44"/>
+<circle cx="75.3" cy="98.6" r="0.8" fill="#f4efe4" opacity="0.56"/>
+<circle cx="68.4" cy="293.7" r="1.5" fill="#f4efe4" opacity="0.24"/>
+<circle cx="143.0" cy="338.4" r="0.5" fill="#f4efe4" opacity="0.51"/>
+<circle cx="74.4" cy="158.1" r="0.9" fill="#f4efe4" opacity="0.47"/>
+<circle cx="436.2" cy="276.9" r="0.8" fill="#f4efe4" opacity="0.16"/>
+<circle cx="36.7" cy="239.4" r="1.0" fill="#f4efe4" opacity="0.26"/>
+<circle cx="69.5" cy="382.1" r="0.8" fill="#f4efe4" opacity="0.25"/>
+<circle cx="145.4" cy="276.3" r="0.5" fill="#f4efe4" opacity="0.30"/>
+<circle cx="350.4" cy="76.2" r="0.3" fill="#f4efe4" opacity="0.38"/>
+<circle cx="339.3" cy="301.1" r="1.5" fill="#f4efe4" opacity="0.29"/>
+<circle cx="207.9" cy="189.1" r="1.5" fill="#f4efe4" opacity="0.32"/>
+<circle cx="39.5" cy="326.6" r="0.8" fill="#f4efe4" opacity="0.35"/>
+<circle cx="122.4" cy="279.0" r="0.6" fill="#f4efe4" opacity="0.30"/>
+<circle cx="23.3" cy="242.9" r="0.4" fill="#f4efe4" opacity="0.38"/>
+<circle cx="433.0" cy="357.5" r="1.2" fill="#f4efe4" opacity="0.59"/>
+<circle cx="139.9" cy="265.9" r="0.5" fill="#f4efe4" opacity="0.32"/>
+<circle cx="435.0" cy="247.2" r="1.5" fill="#f4efe4" opacity="0.48"/>
+<circle cx="210.3" cy="416.0" r="1.6" fill="#f4efe4" opacity="0.19"/>
+<circle cx="101.3" cy="115.1" r="1.2" fill="#f4efe4" opacity="0.31"/>
+<circle cx="238.0" cy="237.7" r="0.4" fill="#f4efe4" opacity="0.62"/>
+<circle cx="287.4" cy="230.8" r="1.4" fill="#f4efe4" opacity="0.13"/>
+<circle cx="66.4" cy="293.8" r="0.8" fill="#f4efe4" opacity="0.38"/>
+<circle cx="459.3" cy="174.0" r="1.4" fill="#f4efe4" opacity="0.28"/>
+<circle cx="296.6" cy="117.9" r="0.5" fill="#f4efe4" opacity="0.60"/>
+<circle cx="493.7" cy="269.9" r="1.2" fill="#f4efe4" opacity="0.44"/>
+<circle cx="96.5" cy="294.6" r="1.6" fill="#f4efe4" opacity="0.37"/>
+<circle cx="271.7" cy="344.8" r="1.4" fill="#f4efe4" opacity="0.59"/>
+<circle cx="213.9" cy="293.0" r="1.4" fill="#f4efe4" opacity="0.55"/>
+<circle cx="397.0" cy="342.8" r="1.3" fill="#f4efe4" opacity="0.28"/>
+<circle cx="187.8" cy="80.3" r="1.5" fill="#f4efe4" opacity="0.27"/>
+<circle cx="3.4" cy="10.3" r="1.3" fill="#f4efe4" opacity="0.15"/>
+<circle cx="247.2" cy="232.7" r="1.0" fill="#f4efe4" opacity="0.30"/>
+<circle cx="190.8" cy="54.5" r="1.0" fill="#f4efe4" opacity="0.56"/>
+<circle cx="151.7" cy="251.2" r="0.6" fill="#f4efe4" opacity="0.46"/>
+<circle cx="193.4" cy="275.7" r="0.5" fill="#f4efe4" opacity="0.54"/>
+<circle cx="31.9" cy="0.5" r="0.7" fill="#f4efe4" opacity="0.30"/>
+<circle cx="455.8" cy="79.0" r="0.7" fill="#f4efe4" opacity="0.43"/>
+<circle cx="481.9" cy="99.1" r="0.4" fill="#f4efe4" opacity="0.58"/>
+<circle cx="216.4" cy="265.9" r="1.7" fill="#f4efe4" opacity="0.42"/>
+<circle cx="434.4" cy="82.1" r="0.6" fill="#f4efe4" opacity="0.25"/>
+<circle cx="336.3" cy="356.8" r="1.5" fill="#f4efe4" opacity="0.24"/>
+<circle cx="224.5" cy="224.9" r="1.7" fill="#f4efe4" opacity="0.43"/>
+<circle cx="36.5" cy="273.9" r="0.4" fill="#f4efe4" opacity="0.32"/>
+<circle cx="274.2" cy="126.3" r="1.1" fill="#f4efe4" opacity="0.39"/>
+<circle cx="64.5" cy="224.6" r="1.6" fill="#f4efe4" opacity="0.57"/>
+<circle cx="348.8" cy="119.3" r="0.8" fill="#f4efe4" opacity="0.53"/>
+<circle cx="141.1" cy="348.0" r="1.3" fill="#f4efe4" opacity="0.14"/>
+<circle cx="427.8" cy="131.5" r="1.3" fill="#f4efe4" opacity="0.50"/>
+<circle cx="451.6" cy="346.5" r="1.4" fill="#f4efe4" opacity="0.20"/>
+<circle cx="341.7" cy="288.0" r="1.2" fill="#f4efe4" opacity="0.49"/>
+<circle cx="377.5" cy="164.5" r="1.2" fill="#f4efe4" opacity="0.29"/>
+<circle cx="447.2" cy="33.8" r="0.6" fill="#f4efe4" opacity="0.60"/>
+<circle cx="477.0" cy="72.8" r="0.4" fill="#f4efe4" opacity="0.23"/>
+<circle cx="17.8" cy="397.0" r="1.7" fill="#f4efe4" opacity="0.56"/>
+<circle cx="65.3" cy="90.0" r="0.5" fill="#f4efe4" opacity="0.10"/>
+<circle cx="341.3" cy="297.1" r="0.9" fill="#f4efe4" opacity="0.52"/>
+<circle cx="108.0" cy="356.3" r="1.3" fill="#f4efe4" opacity="0.37"/>
+<circle cx="184.2" cy="403.6" r="1.6" fill="#f4efe4" opacity="0.50"/>
+<circle cx="443.4" cy="308.1" r="0.5" fill="#f4efe4" opacity="0.63"/>
+<circle cx="27.2" cy="30.6" r="1.3" fill="#f4efe4" opacity="0.59"/>
+<circle cx="491.6" cy="192.4" r="0.5" fill="#f4efe4" opacity="0.48"/>
+<circle cx="51.5" cy="109.5" r="1.6" fill="#f4efe4" opacity="0.12"/>
+<circle cx="165.1" cy="131.6" r="1.8" fill="#f4efe4" opacity="0.63"/>
+<circle cx="343" cy="134" r="54" fill="#5b4a6b" opacity=".22"/>
+<circle cx="343" cy="134" r="54" fill="none" stroke="#5b4a6b" stroke-width="1"/>
+<path d="M 0 344 L 70 311 L 130 336 L 210 294 L 300 332 L 380 302 L 504 336" fill="none" stroke="#f4efe4" stroke-width=".7" opacity=".3"/></g>
+  <text x="552" y="494" font-family="Georgia,serif" font-size="11" letter-spacing="3" fill="#5b4a6b" text-anchor="end" opacity=".85">OUTSIDE / NOT COLLECTIBLE</text>
+  <text x="534" y="484" font-family="Georgia, serif" font-size="168" fill="#f4efe4" opacity=".07" text-anchor="end">40</text>
+  <g transform="translate(118.1 168.8) rotate(-6.640489537517691 66.0 66.0) scale(1.3200)" color="#5b4a6b" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M24 8 C16 34 20 62 12 92 M40 8 C34 34 38 62 30 92 M56 8 C50 34 54 62 46 92 M72 8 C66 34 70 62 62 92"/><path d="M12 72 C32 62 66 62 86 72" opacity=".45"/></g><g transform="translate(266.2 327.0) rotate(-1.5274580390740322 59.0 59.0) scale(1.1800)" color="#f4efe4" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M62 10 C38 18 26 38 32 58 C38 76 56 88 76 84 C58 74 50 58 54 42 C57 28 68 16 62 10 Z" fill="currentColor" fill-opacity=".15"/></g><g transform="translate(363.9 157.6) rotate(-0.29882891010894674 52.0 52.0) scale(1.0400)" color="#5b4a6b" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 68 C26 68 24 30 42 30 C60 30 58 68 76 68 C90 68 92 46 82 36"/><path d="M8 80 C30 80 30 18 52 18 C72 18 72 80 94 80" opacity=".45"/></g>
+</g>
+<rect x="48" y="92" width="504" height="420" fill="none" stroke="#f4efe4" stroke-width="1" opacity=".55"/>
+<rect x="55" y="99" width="490" height="406" fill="none" stroke="#f4efe4" stroke-width=".5" opacity=".22"/>
+<circle cx="78" cy="584" r="29" fill="#5b4a6b" opacity=".14"/>
+<circle cx="78" cy="584" r="29" fill="none" stroke="#5b4a6b" stroke-width="1.2"/>
+<text x="78" y="598" font-family="Georgia, serif" font-size="30" fill="#f4efe4" text-anchor="middle">9</text>
+<text x="126" y="594" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="38" fill="#f4efe4" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">苍白缄默</text>
+<text x="126" y="624" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="14" fill="#91908e" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">魔法</text>
+<text x="126" y="648" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#5b4a6b" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">莉莉亚 · 魔法静默</text>
+<text x="126" y="674" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#91908e" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">新的勇者 · 域外</text>
+<text x="552" y="648" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#5b4a6b" text-anchor="end" letter-spacing="2" opacity="0.75">OUTSIDE</text>
+<text x="552" y="674" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#91908e" text-anchor="end" letter-spacing="1.2" opacity="0.75"></text>
+<line x1="48" y1="694" x2="552" y2="694" stroke="#f4efe4" stroke-width=".6" opacity=".28"/>
+<text x="574" y="380" font-family="Noto Serif SC, Songti SC, serif" font-size="12" fill="#f4efe4" opacity=".35" transform="rotate(90 574 380)" text-anchor="middle">长歌 · 卡牌档案</text>
+<text x="48" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="start" letter-spacing="3.4" opacity="0.55">LONG SONG</text><text x="552" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="end" letter-spacing="2.4" opacity="0.55">040 / 086</text>
+</svg>

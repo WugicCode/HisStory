@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750">
+<defs>
+  <clipPath id="artclip"><rect x="48" y="92" width="504" height="420"/></clipPath>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.16 0"/></filter>
+</defs>
+<rect width="600" height="750" fill="#171c26"/>
+<rect width="600" height="750" fill="#f4efe4" filter="url(#grain)" opacity=".16"/>
+<rect x="24" y="24" width="552" height="702" fill="none" stroke="#f4efe4" stroke-width="1.1" opacity=".55"/>
+<rect x="36" y="36" width="528" height="678" fill="none" stroke="#a67c3d" stroke-width=".8" opacity=".5"/>
+<path d="M24 50 V24 H50 M550 24 H576 V50 M576 700 V726 H550 M50 726 H24 V700" fill="none" stroke="#a67c3d" stroke-width="1.4" opacity=".85"/>
+<text x="48" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="start" letter-spacing="3.2" opacity="0.7">HISTORY / CARD ARCHIVE</text><text x="552" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="end" letter-spacing="2.4" opacity="0.7">PLATE 074</text>
+<rect x="24" y="512" width="552" height="150" fill="#1d2430"/>
+<g clip-path="url(#artclip)">
+  <rect x="48" y="92" width="504" height="420" fill="#312d2a"/>
+  <g transform="translate(48 92)"><circle cx="252.0" cy="159.6" r="54" fill="#a67c3d" opacity=".2"/>
+<circle cx="252.0" cy="159.6" r="54" fill="none" stroke="#a67c3d" stroke-width="1.2"/>
+<line x1="326.3" y1="163.0" x2="477.9" y2="169.9" stroke="#f4efe4" stroke-width="0.61" opacity="0.19"/>
+<line x1="327.9" y1="171.7" x2="443.0" y2="190.0" stroke="#f4efe4" stroke-width="0.89" opacity="0.20"/>
+<line x1="326.7" y1="188.1" x2="461.5" y2="239.6" stroke="#f4efe4" stroke-width="0.83" opacity="0.22"/>
+<line x1="328.0" y1="202.4" x2="403.5" y2="245.0" stroke="#f4efe4" stroke-width="1.03" opacity="0.21"/>
+<line x1="310.4" y1="204.3" x2="428.3" y2="294.6" stroke="#f4efe4" stroke-width="0.68" opacity="0.38"/>
+<line x1="309.2" y1="221.3" x2="412.1" y2="332.4" stroke="#f4efe4" stroke-width="0.69" opacity="0.28"/>
+<line x1="293.8" y1="217.7" x2="356.2" y2="304.5" stroke="#f4efe4" stroke-width="1.02" opacity="0.20"/>
+<line x1="288.9" y1="237.9" x2="330.9" y2="326.8" stroke="#f4efe4" stroke-width="0.85" opacity="0.47"/>
+<line x1="275.3" y1="234.4" x2="303.4" y2="324.5" stroke="#f4efe4" stroke-width="1.01" opacity="0.37"/>
+<line x1="261.1" y1="232.3" x2="277.6" y2="364.2" stroke="#f4efe4" stroke-width="0.50" opacity="0.19"/>
+<line x1="248.6" y1="229.7" x2="243.7" y2="330.6" stroke="#f4efe4" stroke-width="1.10" opacity="0.44"/>
+<line x1="238.6" y1="237.6" x2="213.8" y2="381.9" stroke="#f4efe4" stroke-width="0.72" opacity="0.21"/>
+<line x1="222.5" y1="240.1" x2="188.3" y2="333.4" stroke="#f4efe4" stroke-width="0.82" opacity="0.38"/>
+<line x1="216.4" y1="223.8" x2="140.6" y2="360.6" stroke="#f4efe4" stroke-width="0.86" opacity="0.28"/>
+<line x1="204.4" y1="220.4" x2="120.5" y2="327.6" stroke="#f4efe4" stroke-width="0.61" opacity="0.40"/>
+<line x1="197.8" y1="211.3" x2="103.4" y2="301.2" stroke="#f4efe4" stroke-width="0.78" opacity="0.34"/>
+<line x1="179.7" y1="207.1" x2="74.3" y2="276.2" stroke="#f4efe4" stroke-width="0.59" opacity="0.18"/>
+<line x1="179.1" y1="196.6" x2="79.7" y2="247.2" stroke="#f4efe4" stroke-width="1.03" opacity="0.21"/>
+<line x1="174.8" y1="184.3" x2="79.1" y2="215.0" stroke="#f4efe4" stroke-width="0.51" opacity="0.19"/>
+<line x1="177.1" y1="170.8" x2="72.9" y2="186.3" stroke="#f4efe4" stroke-width="0.77" opacity="0.26"/>
+<line x1="165.4" y1="158.2" x2="71.5" y2="156.7" stroke="#f4efe4" stroke-width="0.87" opacity="0.39"/>
+<line x1="171.8" y1="146.0" x2="59.9" y2="126.9" stroke="#f4efe4" stroke-width="0.78" opacity="0.26"/>
+<line x1="182.9" y1="135.8" x2="56.9" y2="92.6" stroke="#f4efe4" stroke-width="0.67" opacity="0.22"/>
+<line x1="185.4" y1="121.5" x2="65.3" y2="52.9" stroke="#f4efe4" stroke-width="0.50" opacity="0.38"/>
+<line x1="185.9" y1="108.8" x2="74.4" y2="23.1" stroke="#f4efe4" stroke-width="0.61" opacity="0.17"/>
+<line x1="198.2" y1="103.7" x2="118.8" y2="21.2" stroke="#f4efe4" stroke-width="0.87" opacity="0.16"/>
+<line x1="200.6" y1="87.2" x2="137.7" y2="-1.5" stroke="#f4efe4" stroke-width="1.00" opacity="0.34"/>
+<line x1="221.1" y1="97.2" x2="163.6" y2="-19.0" stroke="#f4efe4" stroke-width="1.01" opacity="0.39"/>
+<line x1="225.9" y1="77.7" x2="192.0" y2="-28.5" stroke="#f4efe4" stroke-width="0.94" opacity="0.19"/>
+<line x1="243.0" y1="77.4" x2="230.8" y2="-33.2" stroke="#f4efe4" stroke-width="0.98" opacity="0.18"/>
+<line x1="252.2" y1="89.0" x2="252.4" y2="-40.4" stroke="#f4efe4" stroke-width="0.72" opacity="0.42"/>
+<line x1="265.6" y1="73.6" x2="284.9" y2="-48.0" stroke="#f4efe4" stroke-width="0.77" opacity="0.24"/>
+<line x1="281.0" y1="75.0" x2="309.3" y2="-7.7" stroke="#f4efe4" stroke-width="0.69" opacity="0.48"/>
+<line x1="293.7" y1="81.6" x2="361.1" y2="-44.5" stroke="#f4efe4" stroke-width="0.65" opacity="0.28"/>
+<line x1="300.1" y1="99.8" x2="384.1" y2="-4.8" stroke="#f4efe4" stroke-width="0.68" opacity="0.36"/>
+<line x1="304.1" y1="112.4" x2="401.1" y2="24.6" stroke="#f4efe4" stroke-width="1.08" opacity="0.30"/>
+<line x1="322.9" y1="110.7" x2="432.0" y2="35.3" stroke="#f4efe4" stroke-width="0.91" opacity="0.37"/>
+<line x1="316.0" y1="130.4" x2="461.4" y2="64.1" stroke="#f4efe4" stroke-width="0.68" opacity="0.15"/>
+<line x1="329.7" y1="135.2" x2="437.8" y2="101.1" stroke="#f4efe4" stroke-width="0.78" opacity="0.47"/>
+<line x1="325.2" y1="151.4" x2="440.5" y2="138.4" stroke="#f4efe4" stroke-width="0.66" opacity="0.50"/>
+<line x1="0" y1="344" x2="504" y2="344" stroke="#f4efe4" stroke-width=".8" opacity=".3"/></g>
+  <text x="552" y="494" font-family="Georgia,serif" font-size="11" letter-spacing="3" fill="#a67c3d" text-anchor="end" opacity=".85">OUTSIDE / NOT COLLECTIBLE</text>
+  <text x="534" y="484" font-family="Georgia, serif" font-size="168" fill="#f4efe4" opacity=".07" text-anchor="end">74</text>
+  <g transform="translate(363.9 157.6) rotate(-7.1550052197260126 52.0 52.0) scale(1.0400)" color="#a67c3d" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="50" cy="50" r="24"/><path d="M50 6 V17 M50 83 V94 M6 50 H17 M83 50 H94 M19 19 L27 27 M73 73 L81 81 M81 19 L73 27 M27 73 L19 81"/></g><g transform="translate(118.1 168.8) rotate(4.219652418067268 66.0 66.0) scale(1.3200)" color="#f4efe4" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M18 82 L78 22"/><path d="M56 22 L80 20 L78 44"/><path d="M18 82 L10 90 M18 82 L26 74"/></g><g transform="translate(266.2 327.0) rotate(-5.180432087432806 59.0 59.0) scale(1.1800)" color="#a67c3d" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M14 74 L22 30 L38 50 L50 22 L62 50 L78 30 L86 74 Z"/><path d="M14 74 H86"/><circle cx="50" cy="40" r="3"/></g>
+</g>
+<rect x="48" y="92" width="504" height="420" fill="none" stroke="#f4efe4" stroke-width="1" opacity=".55"/>
+<rect x="55" y="99" width="490" height="406" fill="none" stroke="#f4efe4" stroke-width=".5" opacity=".22"/>
+<circle cx="78" cy="584" r="29" fill="#a67c3d" opacity=".14"/>
+<circle cx="78" cy="584" r="29" fill="none" stroke="#a67c3d" stroke-width="1.2"/>
+<text x="78" y="598" font-family="Georgia, serif" font-size="30" fill="#f4efe4" text-anchor="middle">4</text>
+<text x="126" y="594" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="38" fill="#f4efe4" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">光辉</text>
+<text x="126" y="624" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="14" fill="#91908e" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">魔法</text>
+<text x="126" y="648" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#a67c3d" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">赫琉思 · 五段追高</text>
+<text x="126" y="674" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#91908e" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">同盟军 · 域外</text>
+<text x="552" y="648" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#a67c3d" text-anchor="end" letter-spacing="2" opacity="0.75">OUTSIDE</text>
+<text x="552" y="674" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#91908e" text-anchor="end" letter-spacing="1.2" opacity="0.75"></text>
+<line x1="48" y1="694" x2="552" y2="694" stroke="#f4efe4" stroke-width=".6" opacity=".28"/>
+<text x="574" y="380" font-family="Noto Serif SC, Songti SC, serif" font-size="12" fill="#f4efe4" opacity=".35" transform="rotate(90 574 380)" text-anchor="middle">长歌 · 卡牌档案</text>
+<text x="48" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="start" letter-spacing="3.4" opacity="0.55">LONG SONG</text><text x="552" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#f4efe4" text-anchor="end" letter-spacing="2.4" opacity="0.55">074 / 086</text>
+</svg>

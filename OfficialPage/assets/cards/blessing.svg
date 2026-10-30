@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750">
+<defs>
+  <clipPath id="artclip"><rect x="48" y="92" width="504" height="420"/></clipPath>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.16 0"/></filter>
+</defs>
+<rect width="600" height="750" fill="#f4efe4"/>
+<rect width="600" height="750" fill="#171c26" filter="url(#grain)" opacity=".16"/>
+<rect x="24" y="24" width="552" height="702" fill="none" stroke="#171c26" stroke-width="1.1" opacity=".55"/>
+<rect x="36" y="36" width="528" height="678" fill="none" stroke="#a67c3d" stroke-width=".8" opacity=".5"/>
+<path d="M24 50 V24 H50 M550 24 H576 V50 M576 700 V726 H550 M50 726 H24 V700" fill="none" stroke="#a67c3d" stroke-width="1.4" opacity=".85"/>
+<text x="48" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="start" letter-spacing="3.2" opacity="0.7">HISTORY / CARD ARCHIVE</text><text x="552" y="64" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="end" letter-spacing="2.4" opacity="0.7">PLATE 005</text>
+
+<g clip-path="url(#artclip)">
+  <rect x="48" y="92" width="504" height="420" fill="#eae0ce"/>
+  <g transform="translate(48 92)"><circle cx="252.0" cy="159.6" r="54" fill="#a67c3d" opacity=".2"/>
+<circle cx="252.0" cy="159.6" r="54" fill="none" stroke="#a67c3d" stroke-width="1.2"/>
+<line x1="323.0" y1="161.0" x2="443.8" y2="163.3" stroke="#171c26" stroke-width="0.56" opacity="0.28"/>
+<line x1="325.6" y1="173.3" x2="431.1" y2="193.1" stroke="#171c26" stroke-width="0.74" opacity="0.42"/>
+<line x1="333.8" y1="187.9" x2="478.6" y2="238.0" stroke="#171c26" stroke-width="1.02" opacity="0.49"/>
+<line x1="318.2" y1="197.2" x2="418.3" y2="253.9" stroke="#171c26" stroke-width="0.60" opacity="0.44"/>
+<line x1="308.6" y1="203.3" x2="406.3" y2="278.8" stroke="#171c26" stroke-width="0.80" opacity="0.21"/>
+<line x1="309.2" y1="218.5" x2="413.8" y2="326.2" stroke="#171c26" stroke-width="1.01" opacity="0.34"/>
+<line x1="298.0" y1="227.2" x2="348.7" y2="301.7" stroke="#171c26" stroke-width="0.53" opacity="0.17"/>
+<line x1="286.8" y1="228.0" x2="337.0" y2="326.5" stroke="#171c26" stroke-width="0.56" opacity="0.42"/>
+<line x1="271.5" y1="227.6" x2="307.2" y2="351.7" stroke="#171c26" stroke-width="1.00" opacity="0.26"/>
+<line x1="263.5" y1="236.1" x2="278.6" y2="336.8" stroke="#171c26" stroke-width="0.98" opacity="0.23"/>
+<line x1="251.6" y1="236.8" x2="250.9" y2="361.2" stroke="#171c26" stroke-width="0.54" opacity="0.48"/>
+<line x1="237.7" y1="228.6" x2="211.5" y2="354.9" stroke="#171c26" stroke-width="0.98" opacity="0.42"/>
+<line x1="226.8" y1="230.9" x2="175.8" y2="375.3" stroke="#171c26" stroke-width="1.01" opacity="0.43"/>
+<line x1="219.4" y1="221.4" x2="143.9" y2="364.8" stroke="#171c26" stroke-width="0.65" opacity="0.33"/>
+<line x1="208.1" y1="215.4" x2="126.4" y2="319.1" stroke="#171c26" stroke-width="0.52" opacity="0.28"/>
+<line x1="195.3" y1="215.2" x2="122.2" y2="286.8" stroke="#171c26" stroke-width="0.93" opacity="0.28"/>
+<line x1="189.5" y1="201.9" x2="62.5" y2="287.9" stroke="#171c26" stroke-width="0.87" opacity="0.38"/>
+<line x1="187.2" y1="192.4" x2="53.4" y2="260.2" stroke="#171c26" stroke-width="0.92" opacity="0.26"/>
+<line x1="175.6" y1="183.4" x2="69.9" y2="216.4" stroke="#171c26" stroke-width="1.09" opacity="0.47"/>
+<line x1="165.3" y1="171.7" x2="18.5" y2="192.2" stroke="#171c26" stroke-width="1.09" opacity="0.33"/>
+<line x1="169.0" y1="156.1" x2="70.8" y2="152.0" stroke="#171c26" stroke-width="0.95" opacity="0.36"/>
+<line x1="172.1" y1="142.8" x2="31.7" y2="113.3" stroke="#171c26" stroke-width="0.58" opacity="0.50"/>
+<line x1="167.6" y1="128.7" x2="49.4" y2="85.5" stroke="#171c26" stroke-width="0.91" opacity="0.37"/>
+<line x1="187.1" y1="124.9" x2="78.6" y2="66.9" stroke="#171c26" stroke-width="0.52" opacity="0.46"/>
+<line x1="183.3" y1="106.8" x2="65.7" y2="16.4" stroke="#171c26" stroke-width="0.59" opacity="0.32"/>
+<line x1="194.8" y1="96.7" x2="117.5" y2="11.6" stroke="#171c26" stroke-width="0.56" opacity="0.47"/>
+<line x1="204.0" y1="88.8" x2="118.6" y2="-37.0" stroke="#171c26" stroke-width="0.60" opacity="0.41"/>
+<line x1="216.5" y1="81.8" x2="163.0" y2="-35.3" stroke="#171c26" stroke-width="0.54" opacity="0.46"/>
+<line x1="227.8" y1="83.1" x2="184.0" y2="-54.7" stroke="#171c26" stroke-width="0.75" opacity="0.30"/>
+<line x1="244.5" y1="89.8" x2="231.8" y2="-29.2" stroke="#171c26" stroke-width="0.99" opacity="0.40"/>
+<line x1="256.2" y1="77.5" x2="261.1" y2="-16.4" stroke="#171c26" stroke-width="0.69" opacity="0.35"/>
+<line x1="264.0" y1="91.6" x2="290.8" y2="-61.2" stroke="#171c26" stroke-width="0.68" opacity="0.29"/>
+<line x1="276.4" y1="92.2" x2="319.3" y2="-26.4" stroke="#171c26" stroke-width="0.98" opacity="0.15"/>
+<line x1="287.6" y1="97.8" x2="369.5" y2="-44.4" stroke="#171c26" stroke-width="0.78" opacity="0.32"/>
+<line x1="304.6" y1="92.7" x2="387.4" y2="-12.6" stroke="#171c26" stroke-width="0.64" opacity="0.33"/>
+<line x1="312.9" y1="102.3" x2="392.2" y2="27.5" stroke="#171c26" stroke-width="0.82" opacity="0.36"/>
+<line x1="320.3" y1="113.6" x2="403.4" y2="57.6" stroke="#171c26" stroke-width="0.54" opacity="0.37"/>
+<line x1="329.4" y1="124.8" x2="444.5" y2="72.9" stroke="#171c26" stroke-width="0.68" opacity="0.37"/>
+<line x1="332.1" y1="134.5" x2="464.5" y2="93.0" stroke="#171c26" stroke-width="1.09" opacity="0.44"/>
+<line x1="328.9" y1="149.0" x2="432.5" y2="134.7" stroke="#171c26" stroke-width="0.77" opacity="0.42"/>
+<line x1="0" y1="344" x2="504" y2="344" stroke="#171c26" stroke-width=".8" opacity=".3"/></g>
+  
+  <text x="534" y="484" font-family="Georgia, serif" font-size="168" fill="#171c26" opacity=".07" text-anchor="end">05</text>
+  <g transform="translate(363.9 157.6) rotate(-1.4948988038171276 52.0 52.0) scale(1.0400)" color="#a67c3d" opacity="0.88" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M34 84 C26 70 22 52 28 36 C32 26 42 30 42 40 V50 C42 34 48 22 56 26 C62 30 58 44 58 50 C62 38 70 34 74 40 C78 48 70 60 68 70 C64 84 52 90 34 84 Z"/><path d="M34 62 C42 56 58 56 64 64" opacity=".5"/></g><g transform="translate(118.1 168.8) rotate(6.54167418713549 66.0 66.0) scale(1.3200)" color="#171c26" opacity="0.88" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="50" cy="34" rx="32" ry="12"/><circle cx="50" cy="58" r="24"/><path d="M50 18 V8"/><path d="M30 58 C34 70 66 70 70 58" opacity=".5"/></g><g transform="translate(266.2 327.0) rotate(-3.8205601532592546 59.0 59.0) scale(1.1800)" color="#a67c3d" opacity="0.88" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M50 86 V42"/><path d="M50 50 C30 48 18 30 24 14 C40 18 50 32 50 50 Z"/><path d="M50 50 C70 48 82 30 76 14 C60 18 50 32 50 50 Z"/><path d="M50 42 C44 24 50 8 58 4 C64 18 60 34 50 42 Z"/></g>
+</g>
+<rect x="48" y="92" width="504" height="420" fill="none" stroke="#171c26" stroke-width="1" opacity=".55"/>
+<rect x="55" y="99" width="490" height="406" fill="none" stroke="#171c26" stroke-width=".5" opacity=".22"/>
+<circle cx="78" cy="584" r="29" fill="#a67c3d" opacity=".14"/>
+<circle cx="78" cy="584" r="29" fill="none" stroke="#a67c3d" stroke-width="1.2"/>
+<text x="78" y="598" font-family="Georgia, serif" font-size="30" fill="#171c26" text-anchor="middle">2</text>
+<text x="126" y="594" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="38" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">伊莲女神的祝福</text>
+<text x="126" y="624" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="14" fill="#7a7b7c" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">魔法</text>
+<text x="126" y="648" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#a67c3d" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">通用回复 · 回满</text>
+<text x="126" y="674" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#7a7b7c" text-anchor="start" letter-spacing="0" opacity="1" font-weight="400">通用 · 普通</text>
+<text x="552" y="648" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#a67c3d" text-anchor="end" letter-spacing="2" opacity="0.75">COMMON</text>
+<text x="552" y="674" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#7a7b7c" text-anchor="end" letter-spacing="1.2" opacity="0.75"></text>
+<line x1="48" y1="694" x2="552" y2="694" stroke="#171c26" stroke-width=".6" opacity=".28"/>
+<text x="574" y="380" font-family="Noto Serif SC, Songti SC, serif" font-size="12" fill="#171c26" opacity=".35" transform="rotate(90 574 380)" text-anchor="middle">长歌 · 卡牌档案</text>
+<text x="48" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="start" letter-spacing="3.4" opacity="0.55">LONG SONG</text><text x="552" y="720" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#171c26" text-anchor="end" letter-spacing="2.4" opacity="0.55">005 / 086</text>
+</svg>

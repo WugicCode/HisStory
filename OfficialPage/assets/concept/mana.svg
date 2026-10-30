@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#f4efe4"/>
+<rect width="1200" height="760" fill="url(#none)" opacity="0"/>
+<rect x="26" y="26" width="1148" height="708" fill="none" stroke="#171c26" stroke-width=".8" opacity=".4"/>
+<rect x="38" y="38" width="1124" height="684" fill="none" stroke="#a67c3d" stroke-width=".6" opacity=".4"/>
+<text x="56" y="70" font-family="Georgia, Times New Roman, serif" font-size="10" fill="#a67c3d" text-anchor="start" letter-spacing="3" opacity="0.75">PLATE I</text>
+<text x="56" y="108" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="26" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">魔力、原质与魔能</text>
+<text x="56" y="136" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">THE THREE LAWS OF MAGIC</text>
+<circle cx="660.0" cy="298.00000000000006" r="150" fill="#a67c3d" opacity=".07"/>
+<circle cx="660.0" cy="298.00000000000006" r="150" fill="none" stroke="#a67c3d" stroke-width="1.2" opacity=".8"/>
+<text x="660.0" y="304.00000000000006" font-family="Noto Serif SC, Songti SC, serif" font-size="24" fill="#171c26" text-anchor="middle">魔力</text>
+<circle cx="525.0" cy="498.00000000000006" r="150" fill="#a67c3d" opacity=".07"/>
+<circle cx="525.0" cy="498.00000000000006" r="150" fill="none" stroke="#a67c3d" stroke-width="1.2" opacity=".8"/>
+<text x="525.0" y="504.00000000000006" font-family="Noto Serif SC, Songti SC, serif" font-size="24" fill="#171c26" text-anchor="middle">原质</text>
+<circle cx="795.0" cy="498.00000000000006" r="150" fill="#a67c3d" opacity=".07"/>
+<circle cx="795.0" cy="498.00000000000006" r="150" fill="none" stroke="#a67c3d" stroke-width="1.2" opacity=".8"/>
+<text x="795.0" y="504.00000000000006" font-family="Noto Serif SC, Songti SC, serif" font-size="24" fill="#171c26" text-anchor="middle">魔能</text>
+<path d="M660.0 298.00000000000006 L525.0 498.00000000000006 L795.0 498.00000000000006 Z" fill="none" stroke="#171c26" stroke-width=".8" opacity=".45"/>
+<text x="80" y="660" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="15" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.85" font-weight="400">第一定律：魔力的流动，实质是原质的重新分布。</text>
+<text x="80" y="690" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="15" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.85" font-weight="400">第二定律：魔力与原质统一量纲后，总和不变，称为「魔能」。</text>
+<text x="80" y="720" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="15" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.85" font-weight="400">第三定律：魔能可以与其他能量互相转化，总和不变。</text>
+<text x="1144" y="708" font-family="Georgia, Times New Roman, serif" font-size="9" fill="#a67c3d" text-anchor="end" letter-spacing="2.5" opacity="0.7">FUTZE / SCARLIN</text>
+</svg>

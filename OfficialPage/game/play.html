@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>玩法 · 长歌</title>
+<meta name="description" content="长歌卡牌玩法：随机地图、回合流程、三类单位、信仰与十八个规则词条，附一个可点击的回合演示。">
+<meta name="theme-color" content="#171c26">
+<meta property="og:title" content="玩法 · 长歌">
+<meta property="og:description" content="长歌卡牌玩法：随机地图、回合流程、三类单位、信仰与十八个规则词条，附一个可点击的回合演示。">
+<meta property="og:type" content="website">
+<link rel="icon" href="../assets/seal.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/site.css">
+</head>
+<body class="">
+<a class="skip" href="#main">跳到正文</a>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="../index.html" aria-label="长歌 · 首页">
+      <span class="brand-dot" aria-hidden="true"></span>
+      <span class="brand-text">长歌<small>HISTORY</small></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="打开导航" aria-controls="site-nav" aria-expanded="false"><span></span></button>
+    <nav class="nav" id="site-nav" aria-label="主导航">
+      <a href="../index.html">序</a><a href="../world.html">世界</a><a href="../history.html">战史</a><a href="../cast.html">人物</a><a href="../game/index.html" class="is-active">游戏</a><a href="../novel.html">小说</a><a href="../about.html">关于</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">HOW TO PLAY</p>
+    <h1>玩法</h1>
+    <p class="lead">随机地图，两座信仰，一副 40 张的卡组。你每回合做的事情不多：出牌、移动、攻击、防御。难的是把哪一件事留到下一回合。</p>
+    <div class="hero-latin">RANDOM MAP · TWO FAITHS · FORTY CARDS</div>
+  </div>
+</section>
+<div class="wrap">
+  <section class="rule-block">
+    <h2><span class="num">01 / BATTLEFIELD</span>战场</h2>
+    <p class="lead">战场由随机地图决定：两端一定是双方的信仰，末端战区不可被敌方占领，但己方单位可以从手牌加入。中间的战区数量、连接方式与每个战区的容量都随地图变化；开局时，除两端信仰外，所有战区都未被占领。下面只是最小结构。</p>
+    <div class="battlefield"><div class="zone is-edge is-faith" data-demo-zone="00">
+  <div class="z-label">ZONE 00</div>
+  <div class="z-name">己方末端</div>
+  <div class="z-flag">信仰 · 1000</div>
+  <div class="demo-token is-on" data-token="faith-left" style="position:absolute;left:12px;right:12px;bottom:12px"><b>信仰</b><span>1000</span></div>
+</div><div class="zone " data-demo-zone="01">
+  <div class="z-label">ZONE 01</div>
+  <div class="z-name">战区</div>
+  <div class="z-flag">未占领</div>
+
+</div><div class="zone " data-demo-zone="02">
+  <div class="z-label">ZONE 02</div>
+  <div class="z-name">战区</div>
+  <div class="z-flag">未占领 · 由地图决定</div>
+
+</div><div class="zone " data-demo-zone="03">
+  <div class="z-label">ZONE 03</div>
+  <div class="z-name">战区</div>
+  <div class="z-flag">未占领</div>
+
+</div><div class="zone is-edge is-faith" data-demo-zone="04">
+  <div class="z-label">ZONE 04</div>
+  <div class="z-name">敌方末端</div>
+  <div class="z-flag">信仰 · 1000</div>
+  <div class="demo-token is-on" data-token="faith-right" style="position:absolute;left:12px;right:12px;bottom:12px"><b>信仰</b><span>1000</span></div>
+</div></div>
+    <div class="battlefield-caption"><span>末端：信仰 · 敌方不可占领</span><span>中央：未占领 · 数量与容量由地图决定</span></div>
+  </section>
+  <section class="rule-block">
+    <h2><span class="num">02 / TURN</span>一个回合</h2>
+    <div class="rule-cols">
+      <div>
+        <h3>开始</h3>
+        <ul>
+          <li>除先手第一回合外，抽 1 张。</li>
+          <li>魔力上限 +1，当前魔力回满。</li>
+          <li>上限到 12 后停止自然增长；硬上限 24。</li>
+          <li>防御层与「直到下个己方回合」的效果在此结算。</li>
+        </ul>
+      </div>
+      <div>
+        <h3>行动</h3>
+        <ul>
+          <li>每个单位通常每回合行动一次，支付行动花费。</li>
+          <li>攻击：相邻或射程内，造成攻击力伤害并受反击；攻击只是单位的行动。</li>
+          <li>魔法：可以被指向、可以造成伤害，但不算「攻击」；守护不能替目标接魔法。</li>
+          <li>防御：指向己方目标，触发防御效果。</li>
+          <li>移动：到相邻且未被占领、或己方占领的战区；不能进入敌方战区。</li>
+        </ul>
+      </div>
+    </div>
+    <p class="rule-note"><b>卡组：</b> 40 张，从「新的勇者」「同盟军」「魔王军」中选一个阵营，只能带该阵营与通用牌。英雄与天赋在构筑时合成一张牌，天赋在卡组与收藏中均最多 1 张；一副卡组可以带多位不同英雄。单位牌只能加入己方末端战区。</p>
+  </section>
+  <section class="rule-block">
+    <h2><span class="num">03 / UNITS</span>三类单位</h2>
+    <table class="table">
+      <thead><tr><th>类型</th><th>子类</th><th>伤害</th><th>距离</th><th>特性</th></tr></thead>
+      <tbody>
+        <tr><td>战士</td><td>骑士</td><td>物理</td><td>仅相邻</td><td>无附加</td></tr>
+        <tr><td>战士</td><td>游侠</td><td>物理</td><td>仅相邻</td><td>可移动并攻击</td></tr>
+        <tr><td>战士</td><td>近卫</td><td>物理</td><td>仅相邻</td><td>可攻击并防御</td></tr>
+        <tr><td>法师</td><td>魔法使</td><td>魔法</td><td>任意战区</td><td>无附加</td></tr>
+        <tr><td>法师</td><td>炼金术师</td><td>魔法</td><td>任意战区</td><td>不受反击</td></tr>
+        <tr><td>法师</td><td>神官</td><td>魔法</td><td>任意战区</td><td>不造成反击</td></tr>
+        <tr><td>射手</td><td>射手</td><td>物理</td><td>任意战区</td><td>无视守护；不受也无法造成反击</td></tr>
+      </tbody>
+    </table>
+    <p class="rule-note"><b>术语：</b> 小说里写「弓箭手」，游戏单位类型写「射手」。这是刻意的两层，不是笔误。</p>
+  </section>
+  <section class="rule-block">
+    <h2><span class="num">04 / FAITH</span>信仰与胜负</h2>
+    <div class="rule-cols">
+      <div>
+        <h3>信仰</h3>
+        <p>双方末端战区各有一座信仰，1000 防御，无法行动。它可以被单位攻击，但不会反击；魔法也可以对它造成伤害，但那不属于「攻击」。摧毁对方信仰即获胜。守护可以保护信仰，但只对单位的攻击生效。</p>
+      </div>
+      <div>
+        <h3>英雄</h3>
+        <p>英雄被消灭后，于下个敌方回合结束时洗入卡组并产生返场效果；英雄的专属魔法只在英雄在场上时可用（限定）。</p>
+      </div>
+    </div>
+  </section>
+  <section class="rule-block">
+    <h2><span class="num">05 / KEYWORDS</span>十八个词条</h2>
+    <p class="lead">点开看长解释。页面把「规则原文」与「归档者补充」分开；补充不改变原文，只负责把容易读错的地方说清楚。</p>
+    <div class="keyword-grid"><details>
+  <summary><b>入场</b><span>单位牌使用后即刻生效。</span></summary>
+  <p>单位牌使用后即刻生效，不需要等待行动。它不占行动次数，也不受「召唤失调」影响。</p>
+</details><details>
+  <summary><b>机动</b><span>加入战场的当回合即可行动。</span></summary>
+  <p>单位加入战场的当回合即可行动。注意：0 费不等于机动；机动是词条，不是费用。它也不等于「疾行」——疾行增加的是移动次数。</p>
+</details><details>
+  <summary><b>蓄能</b><span>防御自身时，下个己方回合开始产生效果。</span></summary>
+  <p>单位防御自身时，在下个己方回合开始产生效果。若防御被解除，蓄能中止。觉醒会中止原有蓄能；「本场对战」的蓄能计数不因阵亡重置。</p>
+</details><details>
+  <summary><b>域外</b><span>无法在收藏中获得。</span></summary>
+  <p>无法在收藏中获得。它只能由卡牌效果生成、转换或在战斗中获得。域外不是品质，而是一种获取方式；它的稀有度另算。</p>
+</details><details>
+  <summary><b>返场</b><span>英雄被消灭后，下个敌方回合结束时洗入卡组。</span></summary>
+  <p>英雄被消灭后，下个敌方回合结束时洗入卡组，并产生返场效果。返场是「洗入」，不是「加入」；同名卡只有一张。</p>
+</details><details>
+  <summary><b>限定</b><span>专属魔法只能在所属英雄在场上时使用。</span></summary>
+  <p>专属魔法只能在所属英雄在场上时使用；它只限制「使用」，不限制「持有」。英雄被消灭后，手中的限定牌不能被使用，但仍可被弃置或转换。</p>
+</details><details>
+  <summary><b>触发</b><span>魔法可在手牌激活，下个敌方回合满足条件时自动发动。</span></summary>
+  <p>魔法可在手牌激活，下个敌方回合满足条件时自动发动。触发只等下一个敌方回合；对手不可知；不满足条件则留在手牌；触发一次后即消耗。</p>
+</details><details>
+  <summary><b>守护</b><span>同战区其他单位被攻击时，代替其成为目标。</span></summary>
+  <p>同战区其他单位被攻击时，代替其成为目标。多个守护按入场顺序由最前者承担。守护可以保护信仰，但只对单位的攻击生效；魔法不是攻击，守护不能替目标接魔法。</p>
+</details><details>
+  <summary><b>亡语</b><span>被消灭时即刻生效。</span></summary>
+  <p>被消灭时即刻生效。亡语不进入结算队列，不会因为单位离场而失效。</p>
+</details><details>
+  <summary><b>奋战</b><span>一回合攻击次数 +X。</span></summary>
+  <p>一回合攻击次数 +X。目前只有「引风来」会赋予奋战。</p>
+</details><details>
+  <summary><b>疾行</b><span>一回合移动次数 +X。</span></summary>
+  <p>一回合移动次数 +X。目前没有卡牌使用它——这是留给之后扩展的接口。</p>
+</details><details>
+  <summary><b>护卫</b><span>一回合防御次数 +X。</span></summary>
+  <p>一回合防御次数 +X。目前没有卡牌使用它——与疾行一样，是预留接口。</p>
+</details><details>
+  <summary><b>压制</b><span>无法行动；英雄的限定专属不可用。</span></summary>
+  <p>无法行动；若目标为英雄，其限定专属不可用。所有者的回合结束时解除。目前只有「太阳蚀刻」会施加压制。</p>
+</details><details>
+  <summary><b>禁锢</b><span>无法行动；英雄的限定专属不可用。</span></summary>
+  <p>无法行动；若目标为英雄，其限定专属不可用。被禁锢单位受到防御后解除禁锢，且该次防御不产生效果。禁锢是双向的：你可以锁住对手，也可以用自己的防御解开队友。</p>
+</details><details>
+  <summary><b>回复</b><span>目标获得防御力，直至上限。</span></summary>
+  <p>目标获得防御力，直至其防御力上限。写「单位」的回复不能回复信仰；写「目标」的可以。它不同于「获得 X 防御」：后者同时提高当前值与上限。</p>
+</details><details>
+  <summary><b>觉醒</b><span>获得觉醒面板，同时中止原有蓄能。</span></summary>
+  <p>获得觉醒面板，同时中止原有蓄能。觉醒是「换一套规则」，不是「加一层数值」。英雄返场后仍然保持觉醒；莉莉亚觉醒前后的蓄能计数独立。</p>
+</details><details>
+  <summary><b>转换</b><span>卡变为另一张；张数不变。</span></summary>
+  <p>卡变为另一张，张数不变。场上单位转换会解除所有防御、中止自身蓄能；转换无论在卡组、手牌还是场上都生效。</p>
+</details><details>
+  <summary><b>开发</b><span>从三张额外牌中选一张加入手牌。</span></summary>
+  <p>从三张额外牌中选一张加入手牌。它与「加入」不同：加入是印刷一张新卡，开发是从额外的三张里选一张；它与「抽取」也不同，不经过卡组检索。若牌面写「开发……洗入卡组」，则把加入手牌改为洗入卡组。</p>
+</details></div>
+  </section>
+  <section class="rule-block" id="demo">
+    <h2><span class="num">06 / DEMO</span>一个回合的演示</h2>
+    <p class="lead">这不是可玩的模拟器，只是一张会动的示意图。点「下一步」看顺序；点「上一步」退回去。</p>
+    <div class="demo" data-demo>
+      <div class="demo-stage">
+        <div class="battlefield" data-demo-zones>
+          <div class="zone is-edge is-faith" data-demo-zone="00">
+  <div class="z-label">ZONE 00</div>
+  <div class="z-name">己方末端</div>
+  <div class="demo-token is-on " data-token="faith-left"><b>信仰</b><span>1000</span></div>
+  <div class="z-flag">信仰 · 1000</div>
+</div><div class="zone " data-demo-zone="01">
+  <div class="z-label">ZONE 01</div>
+  <div class="z-name">战区</div>
+
+  <div class="z-flag">未占领</div>
+</div><div class="zone " data-demo-zone="02">
+  <div class="z-label">ZONE 02</div>
+  <div class="z-name">战区</div>
+
+  <div class="z-flag">未占领 · 由地图决定</div>
+</div><div class="zone " data-demo-zone="03">
+  <div class="z-label">ZONE 03</div>
+  <div class="z-name">战区</div>
+
+  <div class="z-flag">未占领</div>
+</div><div class="zone is-edge is-faith" data-demo-zone="04">
+  <div class="z-label">ZONE 04</div>
+  <div class="z-name">敌方末端</div>
+  <div class="demo-token is-on " data-token="faith-right"><b>信仰</b><span>1000</span></div>
+  <div class="z-flag">信仰 · 1000</div>
+</div>
+        </div>
+      </div>
+      <div class="demo-panel">
+        <div class="demo-kicker" data-demo-kicker>STEP 01 / 06</div>
+        <h3 data-demo-title>开局</h3>
+        <p data-demo-text>先手抽 4，后手抽 5，然后调度。</p>
+        <div class="demo-dots" data-demo-dots></div>
+        <div class="demo-controls">
+          <button class="btn" type="button" data-demo-prev>上一步</button>
+          <button class="btn btn--red" type="button" data-demo-next>下一步</button>
+        </div>
+      </div>
+    </div>
+    <script type="application/json" id="demo-data">{"steps": [{"kicker": "STEP 01 / 06", "title": "开局", "text": "先手抽 4，后手抽 5，然后调度：可以换掉等量的牌。双方各有一座 1000 防御的信仰，放在自己的末端战区；开局时，除两端信仰外，所有战区都未被占领。", "zones": [0, 4], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"faith-left": 0, "faith-right": 4}}, {"kicker": "STEP 02 / 06", "title": "回合开始", "text": "除先手第一回合外，回合开始抽 1。魔力上限 +1，并回满当前魔力。上限到 12 后停止自然增长；硬上限是 24。", "zones": [0, 4], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"faith-left": 0, "faith-right": 4}}, {"kicker": "STEP 03 / 06", "title": "出牌", "text": "单位牌只能加入己方末端战区，不能直接放进中间。手牌上限 9；溢出的牌放回卡组底部。0 费不等于机动；机动是词条，写在卡上。", "zones": [0], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 0, "guard": 0, "faith-left": 0, "faith-right": 4}}, {"kicker": "STEP 04 / 06", "title": "移动", "text": "单位可以移动到相邻且未被占领、或己方占领的战区；不能进入敌方战区。移动花行动花费；一个单位通常每回合行动一次。", "zones": [0, 1, 3], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 1, "guard": 0, "enemy": 3, "faith-left": 0, "faith-right": 4}}, {"kicker": "STEP 05 / 06", "title": "攻击", "text": "攻击是单位的行动：造成攻击力伤害，同时受到目标攻击力的反击。魔法不是攻击，守护不能挡魔法。射手无视守护，也不能造成或受到反击；法师在任意战区。", "zones": [2, 3], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 2, "guard": 0, "enemy": 3, "faith-left": 0, "faith-right": 4}}, {"kicker": "STEP 06 / 06", "title": "防御", "text": "防御是指向己方目标、触发防御效果的行动。每受一次攻击解除一层防御；下个己方回合开始，剩余的防御也解除。", "zones": [0, 2], "tokens": ["faith-left", "faith-right", "novian", "guard", "enemy"], "pos": {"novian": 2, "guard": 0, "enemy": 3, "faith-left": 0, "faith-right": 4}}], "motto": "月亮有两面，卡也是。正面写它做什么，背面写它为什么。"}</script>
+  </section>
+</div>
+</main>
+<footer class="site-foot">
+  <div class="wrap foot-grid">
+    <div>
+      <div class="foot-brand">长歌 <span>HISTORY</span></div>
+      <p>一个由小说、音乐与游戏构成的联合企划。小说、音乐与游戏共用同一套世界设定，各自从不同的门进入。</p>
+    </div>
+    <div class="foot-links">
+      <h3>Index</h3>
+      <a href="../world.html">世界</a>
+      <a href="../history.html">战史</a>
+      <a href="../cast.html">人物</a>
+      <a href="../game/index.html">游戏编</a>
+      <a href="../novel.html">小说</a>
+    </div>
+    <div>
+      <h3>Archive</h3>
+      <div class="foot-meta">
+        企划官方页 · 第一版<br>
+        2026.10 · 静态归档<br>
+        作者 MugicFloy<br>
+        卡牌 86 · 人物 21 · 阵营 3
+      </div>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>长歌 · HISTORY / OFFICIAL PAGE</span>
+    <span>本页为企划归档，非商业发行页面。</span>
+  </div>
+</footer>
+<script src="../assets/site.js"></script>
+</body>
+</html>

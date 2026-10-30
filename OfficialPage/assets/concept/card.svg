@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<rect width="1200" height="760" fill="#f4efe4"/>
+<rect width="1200" height="760" fill="url(#none)" opacity="0"/>
+<rect x="26" y="26" width="1148" height="708" fill="none" stroke="#171c26" stroke-width=".8" opacity=".4"/>
+<rect x="38" y="38" width="1124" height="684" fill="none" stroke="#a67c3d" stroke-width=".6" opacity=".4"/>
+<text x="56" y="70" font-family="Georgia, Times New Roman, serif" font-size="10" fill="#a67c3d" text-anchor="start" letter-spacing="3" opacity="0.75">PLATE VI</text>
+<text x="56" y="108" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="26" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">一张卡的解剖</text>
+<text x="56" y="136" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">ANATOMY OF A CARD</text>
+<rect x="120" y="180" width="330" height="430" fill="#f4efe4" stroke="#171c26" stroke-width="1.2"/>
+<rect x="134" y="194" width="302" height="402" fill="none" stroke="#a67c3d" stroke-width=".8"/>
+<rect x="150" y="220" width="270" height="210" fill="#a67c3d" opacity=".12"/>
+<circle cx="285.0" cy="325" r="56" fill="none" stroke="#a67c3d" stroke-width="1"/>
+<g transform="translate(240.0 280.0) rotate(0 45.0 45.0) scale(0.9000)" color="#a67c3d" opacity="0.9" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M62 10 C38 18 26 38 32 58 C38 76 56 88 76 84 C58 74 50 58 54 42 C57 28 68 16 62 10 Z" fill="currentColor" fill-opacity=".15"/></g>
+<text x="150" y="480" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="26" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">卡名</text>
+<text x="150" y="510" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="13" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">类型 · 标签</text>
+<text x="150" y="550" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="13" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.75" font-weight="400">卡文 / 效果</text>
+<text x="150" y="572" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="13" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.55" font-weight="400">以规则语言写成。</text>
+<text x="150" y="590" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="13" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.55" font-weight="400">动词与数字都可以被裁定。</text>
+<line x1="462" y1="240" x2="468" y2="240" stroke="#a67c3d" stroke-width=".8" opacity=".6"/>
+<circle cx="462" cy="240" r="3" fill="#a67c3d"/>
+<text x="480" y="236" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="16" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">图版</text>
+<text x="480" y="256" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">抽象几何与标志性道具</text>
+<line x1="462" y1="340" x2="468" y2="340" stroke="#a67c3d" stroke-width=".8" opacity=".6"/>
+<circle cx="462" cy="340" r="3" fill="#a67c3d"/>
+<text x="480" y="336" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="16" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">费用</text>
+<text x="480" y="356" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">左上角的数字</text>
+<line x1="462" y1="480" x2="468" y2="480" stroke="#a67c3d" stroke-width=".8" opacity=".6"/>
+<circle cx="462" cy="480" r="3" fill="#a67c3d"/>
+<text x="480" y="476" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="16" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">归属</text>
+<text x="480" y="496" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">英雄 · 阵营 · 品质</text>
+<line x1="462" y1="580" x2="468" y2="580" stroke="#a67c3d" stroke-width=".8" opacity=".6"/>
+<circle cx="462" cy="580" r="3" fill="#a67c3d"/>
+<text x="480" y="576" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="16" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="1" font-weight="500">碎碎念</text>
+<text x="480" y="596" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="12" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.6" font-weight="400">归档者的读卡笔记</text>
+<text x="56" y="700" font-family="Noto Serif SC, Songti SC, SimSun, serif" font-size="14" fill="#171c26" text-anchor="start" letter-spacing="0" opacity="0.7" font-weight="400">卡面是给对手看的；碎碎念是给自己看的。</text>
+</svg>
