@@ -17,6 +17,7 @@ import art
 import cardsource
 import content
 import data_site
+import textpatch
 import theme
 
 HERE = Path(__file__).resolve().parent
@@ -1235,6 +1236,9 @@ def write_assets(cards) -> None:
 
 
 def write_page(rel_path: str, html: str) -> None:
+    html, applied, stale = textpatch.apply_page(html, rel_path)
+    if applied or stale:
+        print(f"textpatch: {rel_path}: {applied} applied, {stale} stale")
     path = OUT / rel_path
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(html, encoding="utf-8")
