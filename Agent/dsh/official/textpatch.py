@@ -19,6 +19,7 @@ ROOT = Path(__file__).resolve().parents[3]
 PATCH_FILE = ROOT / "Agent" / "dsh" / "editor" / "patches.json"
 
 _MAIN_RE = re.compile(r"(<main\b[^>]*>)(.*?)(</main>)", re.S | re.I)
+_RULE_NOTE_RE = re.compile(r'[ \t]*<p class="rule-note">(.*?)</p>[ \t]*(?:\r?\n)?', re.S)
 _TOKEN_RE = re.compile(r"<[^>]*>|[^<]+", re.S)
 _TAG_RE = re.compile(r"<\s*(/?)\s*([a-zA-Z0-9:-]+)")
 _SKIP_TAGS = {"script", "style", "code", "pre", "svg", "button", "textarea", "select", "option"}
@@ -101,6 +102,16 @@ def _replace_visible_token(main: str, old: str, new: str, index: int | None) -> 
     return "".join(tokens), True
 
 
+def _drop_empty_rule_notes(main: str) -> str:
+    """删掉被编辑到完全空白的 rule-note，避免留下空框。"""
+
+    def repl(match: re.Match[str]) -> str:
+        text = html.unescape(re.sub(r"<[^>]+>", "", match.group(1))).strip()
+        return "" if not text else match.group(0)
+
+    return _RULE_NOTE_RE.sub(repl, main)
+
+
 def apply_page(page_html: str, page: str) -> tuple[str, int, int]:
     """把某页的补丁应用到生成的 HTML，返回 (html, 成功数, 失效数)。"""
     patches = load().get(page)
@@ -136,4 +147,5 @@ def apply_page(page_html: str, page: str) -> tuple[str, int, int]:
 
     if not applied:
         return page_html, 0, stale
+    main = _drop_empty_rule_notes(main)
     return page_html[: match.start(2)] + main + page_html[match.end(2):], applied, stale

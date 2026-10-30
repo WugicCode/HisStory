@@ -597,6 +597,8 @@ def build_cast() -> str:
     {more}
   </div>
 </article>""")
+        if len(people) % 2:
+            cards.append('<div class="cast-filler" aria-hidden="true"></div>')
         groups.append(f"""<section class="cast-section">
   <div class="cast-head" data-reveal>
     <div>

@@ -48,4 +48,5 @@ python Agent/dsh/editor/server.py --port 8765 --no-open
 
 - 只监听 `127.0.0.1`，不要把它暴露到公网。
 - 这个目录在 `Agent/dsh/` 下，不属于 `OfficialPage/`，GitPage 不会发布它。
+- 如果把一条「规则注」删到完全空白，重建时会自动移除这个空块；需要恢复时点「还原此页」。
 - 如果改了 `build.py` 的页面结构，已有补丁可能需要「还原此页」后重做。
