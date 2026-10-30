@@ -2,7 +2,7 @@
 """正文文字补丁层。
 
 官方页的可见正文由 build.py 生成。这里保存一份「原件文字 -> 新文字」的补丁，
-在 build.py 写出每页之前应用，这样本地文本编辑器的修改不会被下一次重建覆盖。
+在 build.py 写出每页之前应用，这样官方页编辑器的修改不会被下一次重建覆盖。
 
 补丁只作用于 <main> 里的文本节点，不碰属性、链接与脚本。
 """
@@ -16,7 +16,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-PATCH_FILE = ROOT / "Agent" / "dsh" / "editor" / "patches.json"
+PATCH_FILE = ROOT / "Tools" / "OfficialPageEditor" / "patches.json"
 
 _MAIN_RE = re.compile(r"(<main\b[^>]*>)(.*?)(</main>)", re.S | re.I)
 _RULE_NOTE_RE = re.compile(r'[ \t]*<p class="rule-note">(.*?)</p>[ \t]*(?:\r?\n)?', re.S)

@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-"""长歌官方页 · 本地文本编辑器。
+"""长歌官方页 · 官方维护编辑器。
 
 只在 127.0.0.1 上运行，不进入 GitPage。
 用法：
-    python Agent/dsh/editor/server.py
-    python Agent/dsh/editor/server.py --port 8765 --no-open
+    python Tools/OfficialPageEditor/server.py
+    python Tools/OfficialPageEditor/server.py --port 8765 --no-open
 """
 
 from __future__ import annotations
@@ -22,7 +22,17 @@ from pathlib import Path
 from urllib.parse import parse_qs, unquote, urlparse
 
 HERE = Path(__file__).resolve().parent
-ROOT = HERE.parents[2]
+
+
+def _find_root(start: Path) -> Path:
+    """从工具目录向上找仓库根，避免写死层级。"""
+    for candidate in (start, *start.parents):
+        if (candidate / "OfficialPage").is_dir() and (candidate / "Agent" / "dsh" / "official" / "build.py").is_file():
+            return candidate
+    raise RuntimeError("找不到仓库根目录（需要 OfficialPage/ 与 Agent/dsh/official/build.py）")
+
+
+ROOT = _find_root(HERE)
 SITE = ROOT / "OfficialPage"
 OFFICIAL = ROOT / "Agent" / "dsh" / "official"
 
@@ -192,7 +202,7 @@ def _build() -> str:
 
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = "HisStoryEditor/1.0"
+    server_version = "OfficialPageEditor/1.0"
 
     def log_message(self, fmt, *args):  # noqa: A003
         sys.stderr.write("[editor] " + (fmt % args) + "\n")
@@ -303,7 +313,7 @@ class Handler(BaseHTTPRequestHandler):
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="长歌官方页本地文本编辑器")
+    parser = argparse.ArgumentParser(description="长歌官方页 · 官方维护编辑器")
     parser.add_argument("--port", type=int, default=8765)
     parser.add_argument("--no-open", action="store_true", help="不自动打开浏览器")
     args = parser.parse_args()
@@ -323,8 +333,8 @@ def main() -> None:
         raise SystemExit("找不到可用端口")
 
     url = f"http://127.0.0.1:{httpd.server_address[1]}/"
-    print(f"长歌官方页文本编辑器：{url}")
-    print("Ctrl+C 停止。修改保存在 Agent/dsh/editor/patches.json，重建后仍会应用。")
+    print(f"长歌官方页编辑器：{url}")
+    print("Ctrl+C 停止。修改保存在 Tools/OfficialPageEditor/patches.json，重建后仍会应用。")
     if not args.no_open:
         threading.Timer(0.5, lambda: webbrowser.open(url)).start()
     try:

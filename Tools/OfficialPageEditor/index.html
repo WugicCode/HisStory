@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>长歌 · 本地文本编辑器</title>
+<title>长歌 · 官方页编辑器</title>
 <link rel="stylesheet" href="/ui.css">
 </head>
 <body>
@@ -13,10 +13,11 @@
       <span class="brand-mark" aria-hidden="true"><i></i></span>
       <div class="brand-text">
         <strong>长歌</strong>
-        <small>LOCAL TEXT EDITOR</small>
+        <small>OFFICIAL PAGE EDITOR</small>
       </div>
     </div>
     <div class="top-actions">
+      <span class="internal-badge" title="官方内部工具，不随站点发布">官方内部</span>
       <span id="dirty" class="dirty is-clean"><i></i><b>未修改</b></span>
       <button class="btn ghost" id="reset" type="button">还原此页</button>
       <button class="btn ghost" id="rebuild" type="button">重建站点</button>
@@ -27,9 +28,9 @@
   <div class="layout">
     <aside class="sidebar">
       <div class="side-head">
-        <span class="eyebrow">PAGES · 98</span>
+        <span class="eyebrow">PAGES · <span id="page-count">98</span></span>
         <h1>页面</h1>
-        <p>改文字，不改结构。保存后会重新生成 <code>OfficialPage/</code>。</p>
+        <p>官方内部工具。改文字，不改结构；保存后重新生成 <code>OfficialPage/</code>。</p>
       </div>
       <label class="search">
         <span>FIND</span>
@@ -39,7 +40,7 @@
       <div class="side-note">
         <span class="dot"></span>
         有补丁的页面
-        <br>补丁存于 <code>editor/patches.json</code>
+        <br>补丁存于 <code>Tools/OfficialPageEditor/patches.json</code>
       </div>
     </aside>
 

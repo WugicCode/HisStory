@@ -1,4 +1,4 @@
-/* 长歌官方页 · 本地文本编辑器 */
+/* 长歌官方页 · 官方维护编辑器 */
 (() => {
   "use strict";
 
@@ -113,6 +113,8 @@
   }
 
   function renderList() {
+    const pageCount = document.getElementById("page-count");
+    if (pageCount) pageCount.textContent = String(state.pages.length);
     const query = search.value.trim().toLowerCase();
     const groups = ["总览", "游戏编", "卡牌档案"];
     const fragment = document.createDocumentFragment();
